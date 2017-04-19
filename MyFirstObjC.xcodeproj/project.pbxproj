@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
+		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
+		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
+		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
+		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
+		44F3DCA81EA7FB5B00903A08 /* Project1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
+		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		44F3DCAE1EA8000F00903A08 /* _0419.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0419.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,30 @@
 		4494CB781EA6ACE300E40288 /* MyFirstObjC */ = {
 			isa = PBXGroup;
 			children = (
+				44F3DCA71EA7FB4600903A08 /* Project1 */,
+				44F3DCAD1EA7FFEC00903A08 /* Dairy */,
+				44F3DCAA1EA7FC7700903A08 /* Person.h */,
+				44F3DCAB1EA7FC7700903A08 /* Person.m */,
 				4494CB791EA6ACE300E40288 /* main.m */,
 			);
 			path = MyFirstObjC;
+			sourceTree = "<group>";
+		};
+		44F3DCA71EA7FB4600903A08 /* Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				44F3DCA81EA7FB5B00903A08 /* Project1.m */,
+			);
+			name = Project1;
+			sourceTree = "<group>";
+		};
+		44F3DCAD1EA7FFEC00903A08 /* Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				4494CB801EA6B76D00E40288 /* _0418.m */,
+				44F3DCAE1EA8000F00903A08 /* _0419.m */,
+			);
+			name = Dairy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4494CB811EA6B76D00E40288 /* _0418.m in Sources */,
+				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
+				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
+				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,7 @@
 				4494CB7F1EA6ACE300E40288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
