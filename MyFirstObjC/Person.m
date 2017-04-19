@@ -16,13 +16,6 @@
 }
 
 
-
-
-
-
-
-
-
 - (instancetype)init
 {
     self = [super init];
@@ -44,8 +37,6 @@
 
 
 
-
-
 - (instancetype)initWithName: (NSString*) name WithAge:(int) age
 {
     self = [super init];
@@ -59,3 +50,15 @@
 
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+

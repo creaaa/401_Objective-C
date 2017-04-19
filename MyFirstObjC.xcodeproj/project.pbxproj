@@ -12,6 +12,7 @@
 		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
+		44F3DCB51EA80CA500903A08 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCB41EA80CA500903A08 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		44F3DCAE1EA8000F00903A08 /* _0419.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0419.m; sourceTree = "<group>"; };
+		44F3DCB31EA80CA500903A08 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		44F3DCB41EA80CA500903A08 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		44F3DCB21EA80B9300903A08 /* Exercise2 */ = {
 			isa = PBXGroup;
 			children = (
+				44F3DCB31EA80CA500903A08 /* Box.h */,
+				44F3DCB41EA80CA500903A08 /* Box.m */,
 			);
 			name = Exercise2;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				4494CB811EA6B76D00E40288 /* _0418.m in Sources */,
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
+				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
