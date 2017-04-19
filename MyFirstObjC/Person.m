@@ -16,6 +16,13 @@
 }
 
 
+
+
+
+
+
+
+
 - (instancetype)init
 {
     self = [super init];
@@ -26,6 +33,18 @@
     
     return self;
 }
+
+
+// ↑をやるなら、こっちのほうがシンプルや
+//- (instancetype)init
+//{
+//    self = [self initWithName:@"" WithAge:0];
+//    return self;
+//}
+
+
+
+
 
 - (instancetype)initWithName: (NSString*) name WithAge:(int) age
 {

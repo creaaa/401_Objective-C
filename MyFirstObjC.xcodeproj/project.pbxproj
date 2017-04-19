@@ -66,30 +66,54 @@
 		4494CB781EA6ACE300E40288 /* MyFirstObjC */ = {
 			isa = PBXGroup;
 			children = (
-				44F3DCA71EA7FB4600903A08 /* Project1 */,
+				44F3DCB11EA80B7F00903A08 /* Exercise */,
 				44F3DCAD1EA7FFEC00903A08 /* Dairy */,
-				44F3DCAA1EA7FC7700903A08 /* Person.h */,
-				44F3DCAB1EA7FC7700903A08 /* Person.m */,
 				4494CB791EA6ACE300E40288 /* main.m */,
 			);
 			path = MyFirstObjC;
 			sourceTree = "<group>";
 		};
-		44F3DCA71EA7FB4600903A08 /* Project1 */ = {
+		44F3DCA71EA7FB4600903A08 /* Exercise1 */ = {
 			isa = PBXGroup;
 			children = (
 				44F3DCA81EA7FB5B00903A08 /* Project1.m */,
 			);
-			name = Project1;
+			name = Exercise1;
 			sourceTree = "<group>";
 		};
 		44F3DCAD1EA7FFEC00903A08 /* Dairy */ = {
 			isa = PBXGroup;
 			children = (
 				4494CB801EA6B76D00E40288 /* _0418.m */,
-				44F3DCAE1EA8000F00903A08 /* _0419.m */,
+				44F3DCB01EA8085900903A08 /* 0419 */,
 			);
 			name = Dairy;
+			sourceTree = "<group>";
+		};
+		44F3DCB01EA8085900903A08 /* 0419 */ = {
+			isa = PBXGroup;
+			children = (
+				44F3DCAA1EA7FC7700903A08 /* Person.h */,
+				44F3DCAB1EA7FC7700903A08 /* Person.m */,
+				44F3DCAE1EA8000F00903A08 /* _0419.m */,
+			);
+			name = 0419;
+			sourceTree = "<group>";
+		};
+		44F3DCB11EA80B7F00903A08 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				44F3DCA71EA7FB4600903A08 /* Exercise1 */,
+				44F3DCB21EA80B9300903A08 /* Exercise2 */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		44F3DCB21EA80B9300903A08 /* Exercise2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Exercise2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
