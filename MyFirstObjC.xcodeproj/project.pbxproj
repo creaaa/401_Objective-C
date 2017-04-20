@@ -13,6 +13,7 @@
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
 		44F3DCB51EA80CA500903A08 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCB41EA80CA500903A08 /* Box.m */; };
+		44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCB71EA8319900903A08 /* Ex2Main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		44F3DCAE1EA8000F00903A08 /* _0419.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0419.m; sourceTree = "<group>"; };
 		44F3DCB31EA80CA500903A08 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
 		44F3DCB41EA80CA500903A08 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		44F3DCB71EA8319900903A08 /* Ex2Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex2Main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		44F3DCB11EA80B7F00903A08 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				44F3DCBB1EA955F700903A08 /* Exercise3 */,
 				44F3DCA71EA7FB4600903A08 /* Exercise1 */,
 				44F3DCB21EA80B9300903A08 /* Exercise2 */,
 			);
@@ -117,8 +120,16 @@
 			children = (
 				44F3DCB31EA80CA500903A08 /* Box.h */,
 				44F3DCB41EA80CA500903A08 /* Box.m */,
+				44F3DCB71EA8319900903A08 /* Ex2Main.m */,
 			);
 			name = Exercise2;
+			sourceTree = "<group>";
+		};
+		44F3DCBB1EA955F700903A08 /* Exercise3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Exercise3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
+				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
