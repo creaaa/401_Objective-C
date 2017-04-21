@@ -6,7 +6,6 @@
 - (int) scan {
     
     printf("Input the answer: \n");
-    //scanf("%s", _scannedAnswer);
     
     char sc[256];
     scanf("%s", sc);

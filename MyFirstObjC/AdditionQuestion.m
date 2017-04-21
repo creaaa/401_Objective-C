@@ -12,6 +12,7 @@
     self.correctAnswer = int1 + int2;
     
     printf("What is %d + %d?\n", int1, int2);
+    
 }
 
 // return whether the answer is right
