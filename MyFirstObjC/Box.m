@@ -18,7 +18,6 @@
     }
     
     return self;
-    
 }
 
 - (float) calc {
