@@ -14,19 +14,30 @@ int main(int argc, const char * argv[]) {
         ContactList*    contactList    = [ContactList new];
         InputCollector* inputCollector = [InputCollector new];
         
-        NSString* command;
+        NSString* inputFromUser;
         
+        Contact* c;
         
         while (true) {
             
-            command = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application\n>"];
+            inputFromUser = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application\n>"];
             
-            if ([command isEqualToString:@"new"]) {
+            if ([inputFromUser isEqualToString:@"new"]) {
+                
                 printf("new!\n");
-            } else if ([command isEqualToString:@"list"]) {
+                
+                NSString* name  = [inputCollector inputForPrompt: @"what's name"];
+                NSString* email = [inputCollector inputForPrompt: @"what's email"];
+                
+                c = [[Contact alloc] initWithName:name withEmail: email];
+                
+                NSLog(@"%@", c);
+                
+            } else if ([inputFromUser isEqualToString:@"list"]) {
                 printf("list!\n");
-            } else if ([command isEqualToString:@"quit"]) {
-                printf("quit!\n");
+            } else if ([inputFromUser isEqualToString:@"quit"]) {
+                printf("Adieu.\n");
+                break;
             }
 
             
