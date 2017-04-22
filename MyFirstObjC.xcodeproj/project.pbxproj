@@ -16,6 +16,7 @@
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
+		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
@@ -56,6 +57,8 @@
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
+		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 		44F3DCA81EA7FB5B00903A08 /* Project1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
 		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				4413019F1EAAE05200E51764 /* InputHandler2.m */,
 				441301A11EAAE05200E51764 /* ScoreKeeper2.h */,
 				441301A21EAAE05200E51764 /* ScoreKeeper2.m */,
+				44E950951EAC17E8002F7AAA /* QuestionManager.h */,
+				44E950961EAC17E8002F7AAA /* QuestionManager.m */,
 			);
 			name = Exercise5;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
+				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
