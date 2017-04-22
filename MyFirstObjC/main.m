@@ -8,15 +8,12 @@
 int main(int argc, const char * argv[]) {
     
     
-    
     @autoreleasepool {
         
-        ContactList*    contactList    = [ContactList new];
+        ContactList*    contactList    = [[ContactList alloc] init];
         InputCollector* inputCollector = [InputCollector new];
         
         NSString* inputFromUser;
-        
-        Contact* c;
         
         while (true) {
             
@@ -29,23 +26,22 @@ int main(int argc, const char * argv[]) {
                 NSString* name  = [inputCollector inputForPrompt: @"what's name"];
                 NSString* email = [inputCollector inputForPrompt: @"what's email"];
                 
-                c = [[Contact alloc] initWithName:name withEmail: email];
+                Contact* newContact = [[Contact alloc] initWithName:name withEmail: email];
                 
-                NSLog(@"%@", c);
+                [contactList addContact:newContact];
                 
             } else if ([inputFromUser isEqualToString:@"list"]) {
-                printf("list!\n");
+                
+                for (int i=0; i < contactList.contactAry.count; i++) {
+                    NSLog(@"%@", contactList.contactAry[i]);
+                }
+                
             } else if ([inputFromUser isEqualToString:@"quit"]) {
                 printf("Adieu.\n");
                 break;
             }
-
-            
             
         }
-        
-        
-        
         
     }
 }

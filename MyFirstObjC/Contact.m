@@ -4,7 +4,6 @@
 @implementation Contact
 
 
-
 - (instancetype)initWithName: (NSString*) name withEmail: (NSString*) email {
     
     self = [super init];
@@ -15,11 +14,6 @@
     
     return self;
 }
-
-    
-
-
-
 
 
 - (NSString *)description {
