@@ -3,6 +3,6 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        printf("fffd\n");
+        printf("koko\n");
     }
 }
