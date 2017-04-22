@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413019D1EAAE05200E51764 /* AdditionQuestion2.m */; };
-		441301A41EAAE05200E51764 /* InputCollector2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413019F1EAAE05200E51764 /* InputCollector2.m */; };
+		441301A41EAAE05200E51764 /* InputHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413019F1EAAE05200E51764 /* InputHandler2.m */; };
 		441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */ = {isa = PBXBuildFile; fileRef = 441301A21EAAE05200E51764 /* ScoreKeeper2.m */; };
 		4416A6671EAAB2A5003608ED /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6661EAAB2A5003608ED /* Contact.m */; };
 		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
 		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
+		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
@@ -40,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		4413019D1EAAE05200E51764 /* AdditionQuestion2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion2.m; sourceTree = "<group>"; };
-		4413019E1EAAE05200E51764 /* InputCollector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector2.h; sourceTree = "<group>"; };
-		4413019F1EAAE05200E51764 /* InputCollector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector2.m; sourceTree = "<group>"; };
+		4413019E1EAAE05200E51764 /* InputHandler2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler2.h; sourceTree = "<group>"; };
+		4413019F1EAAE05200E51764 /* InputHandler2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler2.m; sourceTree = "<group>"; };
 		441301A01EAAE05200E51764 /* AdditionQuestion2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion2.h; sourceTree = "<group>"; };
 		441301A11EAAE05200E51764 /* ScoreKeeper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper2.h; sourceTree = "<group>"; };
 		441301A21EAAE05200E51764 /* ScoreKeeper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper2.m; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
+		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44F3DCA81EA7FB5B00903A08 /* Project1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
 		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				4416A6691EAAB2AD003608ED /* ContactList.m */,
 				4416A66B1EAAB2D5003608ED /* InputCollector.h */,
 				4416A66C1EAAB2D5003608ED /* InputCollector.m */,
+				44E950931EAC072C002F7AAA /* Ex4Main.m */,
 			);
 			name = Exercise4;
 			sourceTree = "<group>";
@@ -99,8 +102,8 @@
 			children = (
 				441301A01EAAE05200E51764 /* AdditionQuestion2.h */,
 				4413019D1EAAE05200E51764 /* AdditionQuestion2.m */,
-				4413019E1EAAE05200E51764 /* InputCollector2.h */,
-				4413019F1EAAE05200E51764 /* InputCollector2.m */,
+				4413019E1EAAE05200E51764 /* InputHandler2.h */,
+				4413019F1EAAE05200E51764 /* InputHandler2.m */,
 				441301A11EAAE05200E51764 /* ScoreKeeper2.h */,
 				441301A21EAAE05200E51764 /* ScoreKeeper2.m */,
 			);
@@ -259,7 +262,7 @@
 				44F3DCBE1EA96DD400903A08 /* AdditionQuestion.m in Sources */,
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
-				441301A41EAAE05200E51764 /* InputCollector2.m in Sources */,
+				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
@@ -268,6 +271,7 @@
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
+				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,

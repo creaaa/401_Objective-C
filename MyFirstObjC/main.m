@@ -1,47 +1,40 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Contact.h"
-#import "ContactList.h"
-#import "InputCollector.h"
+#import "AdditionQuestion2.h"
+#import "InputHandler2.h"
+
 
 int main(int argc, const char * argv[]) {
     
-    
     @autoreleasepool {
+
+        AdditionQuestion2* additionQuestion = [AdditionQuestion2 new];
+        InputHandler2*     inputHandler     = [InputHandler2  new];
         
-        ContactList*    contactList    = [[ContactList alloc] init];
-        InputCollector* inputCollector = [InputCollector new];
-        
-        NSString* inputFromUser;
+        // not NSTimeInterval* because this is actually double type
+        NSTimeInterval     timeInterval;
         
         while (true) {
             
-            inputFromUser = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application\n>"];
+            [additionQuestion generateRandomQuestion];
+            int userInput = [inputHandler scan];
             
-            if ([inputFromUser isEqualToString:@"new"]) {
-                
-                printf("new!\n");
-                
-                NSString* name  = [inputCollector inputForPrompt: @"what's name"];
-                NSString* email = [inputCollector inputForPrompt: @"what's email"];
-                
-                Contact* newContact = [[Contact alloc] initWithName:name withEmail: email];
-                
-                [contactList addContact:newContact];
-                
-            } else if ([inputFromUser isEqualToString:@"list"]) {
-                
-                for (int i=0; i < contactList.contactAry.count; i++) {
-                    NSLog(@"%@", contactList.contactAry[i]);
-                }
-                
-            } else if ([inputFromUser isEqualToString:@"quit"]) {
-                printf("Adieu.\n");
-                break;
+            
+            if (userInput == -1) {
+                printf("Bye.\n");
+            }
+            
+            
+            if ([additionQuestion answer] == userInput) {
+                timeInterval = [additionQuestion answerTime];
+                NSLog(@"%f", timeInterval);
             }
             
         }
         
+        
+        
     }
+    
 }
