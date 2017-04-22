@@ -1,7 +1,7 @@
 
-#import "AdditionQuestion.h"
+#import "AdditionQuestion2.h"
 
-@implementation AdditionQuestion
+@implementation AdditionQuestion2
 
 
 - (void)generateRandomQuestion {

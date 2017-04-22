@@ -11,8 +11,8 @@
 //    @autoreleasepool {
 //        
 //        AdditionQuestion* questionManager = [AdditionQuestion new];
-//        InputHandler*     inputHandler = [InputHandler new];
-//        ScoreKeeper*     scoreKeeper = [ScoreKeeper new];
+//        InputHandler*     inputHandler    = [InputHandler new];
+//        ScoreKeeper*      scoreKeeper     = [ScoreKeeper new];
 //        
 //        
 //        while (true) {

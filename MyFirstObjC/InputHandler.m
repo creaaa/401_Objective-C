@@ -14,7 +14,6 @@
     NSString* exit = @"exit";
     
     if ([word isEqualToString: exit]) {
-        printf("!!!!!\n");
         return -1; // represent exit
     }
     

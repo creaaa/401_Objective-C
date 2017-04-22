@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4416A6671EAAB2A5003608ED /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6661EAAB2A5003608ED /* Contact.m */; };
+		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
+		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
+		4416A6741EAADA0A003608ED /* AdditionQuestion2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66F1EAADA0A003608ED /* AdditionQuestion2.m */; };
+		4416A6751EAADA0A003608ED /* InputCollector2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6711EAADA0A003608ED /* InputCollector2.m */; };
+		4416A6761EAADA0A003608ED /* ScoreKeeper2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6731EAADA0A003608ED /* ScoreKeeper2.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
@@ -33,6 +39,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4416A6651EAAB2A5003608ED /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		4416A6661EAAB2A5003608ED /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		4416A6681EAAB2AD003608ED /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		4416A6691EAAB2AD003608ED /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		4416A66B1EAAB2D5003608ED /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		4416A66C1EAAB2D5003608ED /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		4416A66E1EAADA0A003608ED /* AdditionQuestion2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdditionQuestion2.h; path = Ex5/AdditionQuestion2.h; sourceTree = "<group>"; };
+		4416A66F1EAADA0A003608ED /* AdditionQuestion2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdditionQuestion2.m; path = Ex5/AdditionQuestion2.m; sourceTree = "<group>"; };
+		4416A6701EAADA0A003608ED /* InputCollector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputCollector2.h; path = Ex5/InputCollector2.h; sourceTree = "<group>"; };
+		4416A6711EAADA0A003608ED /* InputCollector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputCollector2.m; path = Ex5/InputCollector2.m; sourceTree = "<group>"; };
+		4416A6721EAADA0A003608ED /* ScoreKeeper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreKeeper2.h; path = Ex5/ScoreKeeper2.h; sourceTree = "<group>"; };
+		4416A6731EAADA0A003608ED /* ScoreKeeper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreKeeper2.m; path = Ex5/ScoreKeeper2.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -63,6 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4416A6631EAAA471003608ED /* Exercise4 */ = {
+			isa = PBXGroup;
+			children = (
+				4416A6651EAAB2A5003608ED /* Contact.h */,
+				4416A6661EAAB2A5003608ED /* Contact.m */,
+				4416A6681EAAB2AD003608ED /* ContactList.h */,
+				4416A6691EAAB2AD003608ED /* ContactList.m */,
+				4416A66B1EAAB2D5003608ED /* InputCollector.h */,
+				4416A66C1EAAB2D5003608ED /* InputCollector.m */,
+			);
+			name = Exercise4;
+			sourceTree = "<group>";
+		};
+		4416A6641EAAA9B8003608ED /* Exercise5 */ = {
+			isa = PBXGroup;
+			children = (
+				4416A66E1EAADA0A003608ED /* AdditionQuestion2.h */,
+				4416A66F1EAADA0A003608ED /* AdditionQuestion2.m */,
+				4416A6701EAADA0A003608ED /* InputCollector2.h */,
+				4416A6711EAADA0A003608ED /* InputCollector2.m */,
+				4416A6721EAADA0A003608ED /* ScoreKeeper2.h */,
+				4416A6731EAADA0A003608ED /* ScoreKeeper2.m */,
+			);
+			name = Exercise5;
+			sourceTree = "<group>";
+		};
 		4494CB6D1EA6ACE200E40288 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +166,8 @@
 				44F3DCA71EA7FB4600903A08 /* Exercise1 */,
 				44F3DCB21EA80B9300903A08 /* Exercise2 */,
 				44F3DCBB1EA955F700903A08 /* Exercise3 */,
+				4416A6631EAAA471003608ED /* Exercise4 */,
+				4416A6641EAAA9B8003608ED /* Exercise5 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -212,12 +258,18 @@
 				4494CB811EA6B76D00E40288 /* _0418.m in Sources */,
 				44F3DCBE1EA96DD400903A08 /* AdditionQuestion.m in Sources */,
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
+				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
+				4416A6751EAADA0A003608ED /* InputCollector2.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
+				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
+				4416A6741EAADA0A003608ED /* AdditionQuestion2.m in Sources */,
+				4416A6761EAADA0A003608ED /* ScoreKeeper2.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
+				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
