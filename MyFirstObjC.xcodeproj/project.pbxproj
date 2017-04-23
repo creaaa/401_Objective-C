@@ -14,6 +14,10 @@
 		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
 		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
 		442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E271EAD4798002B4D10 /* Ex6Main.m */; };
+		442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E2B1EAD519A002B4D10 /* Doctor.m */; };
+		442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E2E1EAD51A2002B4D10 /* Patient.m */; };
+		442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E311EAD51AB002B4D10 /* Prescription.m */; };
+		442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -58,6 +62,14 @@
 		4416A66B1EAAB2D5003608ED /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
 		4416A66C1EAAB2D5003608ED /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 		442D4E271EAD4798002B4D10 /* Ex6Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex6Main.m; sourceTree = "<group>"; };
+		442D4E2A1EAD519A002B4D10 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		442D4E2B1EAD519A002B4D10 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		442D4E2D1EAD51A2002B4D10 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		442D4E2E1EAD51A2002B4D10 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		442D4E301EAD51AB002B4D10 /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		442D4E311EAD51AB002B4D10 /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+		442D4E331EAD51BC002B4D10 /* PrescriptionDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionDatabase.h; sourceTree = "<group>"; };
+		442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionDatabase.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -126,6 +138,21 @@
 			name = Exercise5;
 			sourceTree = "<group>";
 		};
+		442D4E291EAD47C2002B4D10 /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				442D4E2A1EAD519A002B4D10 /* Doctor.h */,
+				442D4E2B1EAD519A002B4D10 /* Doctor.m */,
+				442D4E2D1EAD51A2002B4D10 /* Patient.h */,
+				442D4E2E1EAD51A2002B4D10 /* Patient.m */,
+				442D4E301EAD51AB002B4D10 /* Prescription.h */,
+				442D4E311EAD51AB002B4D10 /* Prescription.m */,
+				442D4E331EAD51BC002B4D10 /* PrescriptionDatabase.h */,
+				442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */,
+			);
+			name = Exercise7;
+			sourceTree = "<group>";
+		};
 		4494CB6D1EA6ACE200E40288 = {
 			isa = PBXGroup;
 			children = (
@@ -145,8 +172,8 @@
 		4494CB781EA6ACE300E40288 /* MyFirstObjC */ = {
 			isa = PBXGroup;
 			children = (
-				44F3DCB11EA80B7F00903A08 /* Exercise */,
 				44F3DCAD1EA7FFEC00903A08 /* Dairy */,
+				44F3DCB11EA80B7F00903A08 /* Exercise */,
 				4494CB791EA6ACE300E40288 /* main.m */,
 			);
 			path = MyFirstObjC;
@@ -200,6 +227,7 @@
 				4416A6631EAAA471003608ED /* Exercise4 */,
 				4416A6641EAAA9B8003608ED /* Exercise5 */,
 				44E950981EAC25CE002F7AAA /* Exercise6 */,
+				442D4E291EAD47C2002B4D10 /* Exercise7 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -293,13 +321,16 @@
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
 				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
+				442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */,
 				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
+				442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
+				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
@@ -309,6 +340,7 @@
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
+				442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
