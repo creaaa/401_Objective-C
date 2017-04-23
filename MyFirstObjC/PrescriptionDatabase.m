@@ -4,7 +4,19 @@
 @implementation PrescriptionDatabase
 
 
-- (instancetype)init{
+static PrescriptionDatabase *sharedData_ = nil;
+
++ (PrescriptionDatabase*) sharedManager {
+    
+    if (!sharedData_) {
+        sharedData_ = [PrescriptionDatabase new];
+    }
+    
+    return sharedData_;
+}
+
+
+- (instancetype)init {
     
     self = [super init];
     if(self) {

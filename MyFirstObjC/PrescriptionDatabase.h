@@ -5,7 +5,8 @@
 
 @property NSMutableArray* record;  // store Prescription object
 
-- (instancetype)init;
++ (PrescriptionDatabase *)sharedManager;
+// - (instancetype)init;
 
 - (NSString *)description;
 

@@ -18,7 +18,7 @@
 
 - (void) acceptPatient: (Patient*) patient;
 - (Prescription*) requestPrescription: (Patient*) patient;
-- (void) addPresctiptionToDB: (PrescriptionDatabase*) DB withPrescription: (Prescription*) pres;
+- (void) addPresctiptionToDB: (Prescription*) pres;
 
 - (NSString *)description;
 

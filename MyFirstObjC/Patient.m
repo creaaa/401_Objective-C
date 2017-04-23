@@ -24,6 +24,7 @@
         _id   = id;
         _name = name;
         _age  = age;
+        _diseaseName = diseaseName;
         _hasHealthCard = hasHealthCard;
     }
     

@@ -58,7 +58,7 @@
             Prescription* pres = [[Prescription alloc] initWithName: storedPatient.diseaseName withPatient: storedPatient];
             
             // add prescription to DB before return
-            [self addPresctiptionToDB:<#(PrescriptionDatabase *)#> withPrescription:<#(Prescription *)#>]
+            [self addPresctiptionToDB:pres];
             
             return pres;
             
@@ -71,8 +71,11 @@
 }
 
 
-- (void) addPresctiptionToDB: (PrescriptionDatabase*) DB withPrescription: (Prescription*) pres {
-    [DB.record addObject: pres];
+- (void) addPresctiptionToDB: (Prescription*) pres {
+    
+    [[PrescriptionDatabase sharedManager].record addObject:pres];
+    
+
 }
 
 
