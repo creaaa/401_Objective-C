@@ -17,7 +17,11 @@
 
 
 -(void)addQuestion:(AdditionQuestion2 *) newQuestion {
+    
     [_questions addObject:newQuestion];
+    
+    
+    
 }
 
 
@@ -28,9 +32,11 @@
     AdditionQuestion2* lastQuestion = _questions.lastObject;
     
     NSTimeInterval timeInterval = [lastQuestion answerTime];
-    // NSLog(@"answer time: %f", timeInterval);
     
-    NSString* result = [NSString stringWithFormat:@"%.1f", timeInterval];
+    // add totalSum
+    _totalSum += timeInterval;
+    
+    NSString* result = [NSString stringWithFormat:@"total time: %.1fs, average time: %.1fs", _totalSum, _totalSum / _questions.count];
     
     return result;
     

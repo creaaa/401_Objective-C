@@ -6,6 +6,7 @@
 @interface QuestionManager : NSObject
 
 @property NSMutableArray* questions;
+@property double          totalSum;
 
 - (instancetype)init;
 
