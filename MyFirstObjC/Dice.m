@@ -14,6 +14,7 @@
     
     if(self) {
         _value = arc4random_uniform(6) + 1;
+        
     }
     
     return self;
@@ -21,7 +22,33 @@
 }
 
 - (NSString *)description {
-    return @"boke";
+    
+    // ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
+    
+    switch (_value) {
+        case 1:
+            return @"⚀";
+            break;
+        case 2:
+            return @"⚁";
+            break;
+        case 3:
+            return @"⚂";
+            break;
+        case 4:
+            return @"⚃";
+            break;
+        case 5:
+            return @"⚄";
+            break;
+        case 6:
+            return @"⚅";
+            break;
+            
+        default:
+            return @"Irregular!";
+            break;
+    }
 }
 
 @end

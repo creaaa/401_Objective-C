@@ -33,7 +33,7 @@
 }
 
 - (void) printDiceState {
-    NSLog(@"%@", _dices[0]);
+    NSLog(@"%@ %@ %@ %@ %@", _dices[0], _dices[1], _dices[2], _dices[3], _dices[4]);
 }
 
 - (void) printCurrentScore {
