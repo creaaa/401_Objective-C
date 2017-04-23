@@ -10,6 +10,7 @@
 - (instancetype)init;
 
 
+- (void) rollDices;
 - (void) holdDie: (int) idx;
 - (void) resetDice;
 

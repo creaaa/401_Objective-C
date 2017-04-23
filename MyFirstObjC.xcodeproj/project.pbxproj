@@ -13,6 +13,7 @@
 		4416A6671EAAB2A5003608ED /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6661EAAB2A5003608ED /* Contact.m */; };
 		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
 		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
+		442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E271EAD4798002B4D10 /* Ex6Main.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -56,6 +57,7 @@
 		4416A6691EAAB2AD003608ED /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		4416A66B1EAAB2D5003608ED /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
 		4416A66C1EAAB2D5003608ED /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		442D4E271EAD4798002B4D10 /* Ex6Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex6Main.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				44E9509C1EAC3069002F7AAA /* Dice.m */,
 				44E9509E1EAC3089002F7AAA /* GameController.h */,
 				44E9509F1EAC3089002F7AAA /* GameController.m */,
+				442D4E271EAD4798002B4D10 /* Ex6Main.m */,
 			);
 			name = Exercise6;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
+				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,

@@ -14,7 +14,6 @@
     
     if(self) {
         _value = arc4random_uniform(6) + 1;
-        
     }
     
     return self;
@@ -44,7 +43,6 @@
         case 6:
             return @"⚅";
             break;
-            
         default:
             return @"Irregular!";
             break;
