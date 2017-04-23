@@ -7,6 +7,8 @@
 
 - (void) roll;
 
+- (instancetype)init;
+
 - (NSString *)description;
 
 @end

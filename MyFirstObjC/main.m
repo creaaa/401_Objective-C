@@ -1,7 +1,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AdditionQuestion2.h"
+#import "GameController.h"
+
 
 int main(int argc, const char * argv[]) {
     
@@ -9,14 +10,21 @@ int main(int argc, const char * argv[]) {
         
         // ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
         
+        GameController* gameController = [GameController new];
+        
         int rollCount = 0;
         
         // Player only can roll up to 5 times (original rule)
         while (rollCount < 5) {
             
+            [gameController printDiceState];
+            
+            rollCount += 1;
+            printf("%d\n", rollCount);
+            
         }
         
-        
+    
         
     }
     

@@ -8,8 +8,20 @@
     _value = value;
 }
 
+- (instancetype)init {
+    
+    self = [super init];
+    
+    if(self) {
+        _value = arc4random_uniform(6) + 1;
+    }
+    
+    return self;
+    
+}
+
 - (NSString *)description {
-    return @"";
+    return @"boke";
 }
 
 @end
