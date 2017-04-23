@@ -1,5 +1,8 @@
 
 #import <Foundation/Foundation.h>
+#import "Patient.h"
+#import "Prescription.h"
+
 
 @interface Doctor : NSObject
 
@@ -11,7 +14,9 @@
 - (instancetype)init;
 - (instancetype) initWithName: (NSString*) name withSpecialization: (NSString*) specialization;
 
-- (void) issuePrescription;
+
+- (void) acceptPatient: (Patient*) patient;
+- (Prescription*) requestPrescription: (Patient*) patient;
 - (void) addPresctiptionToDB;
 
 

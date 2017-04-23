@@ -8,6 +8,11 @@
 @property Patient*  patient;
 
 
-- (instancetype)init;
+// - (instancetype)init;
+- (instancetype) initWithName: (NSString*) name withPatient: (Patient*) patient;
 
+
+- (NSString *)description;
+    
+    
 @end
