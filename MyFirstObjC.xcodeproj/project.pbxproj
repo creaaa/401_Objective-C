@@ -18,6 +18,8 @@
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
+		44E9509D1EAC3069002F7AAA /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509C1EAC3069002F7AAA /* Dice.m */; };
+		44E950A01EAC3089002F7AAA /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509F1EAC3089002F7AAA /* GameController.m */; };
 		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
@@ -61,6 +63,10 @@
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 		44E950991EAC2996002F7AAA /* Ex5Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex5Main.m; sourceTree = "<group>"; };
+		44E9509B1EAC3069002F7AAA /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		44E9509C1EAC3069002F7AAA /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		44E9509E1EAC3089002F7AAA /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		44E9509F1EAC3089002F7AAA /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		44F3DCA81EA7FB5B00903A08 /* Project1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
 		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 		44E950981EAC25CE002F7AAA /* Exercise6 */ = {
 			isa = PBXGroup;
 			children = (
+				44E9509B1EAC3069002F7AAA /* Dice.h */,
+				44E9509C1EAC3069002F7AAA /* Dice.m */,
+				44E9509E1EAC3089002F7AAA /* GameController.h */,
+				44E9509F1EAC3089002F7AAA /* GameController.m */,
 			);
 			name = Exercise6;
 			sourceTree = "<group>";
@@ -288,9 +298,11 @@
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
+				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
+				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 			);
