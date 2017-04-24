@@ -30,6 +30,8 @@
 		442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E571EADDFF9002B4D10 /* ex13Main.m */; };
 		442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */; };
 		442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */; };
+		442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E601EADF14D002B4D10 /* DeliveryService.m */; };
+		442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E631EADF169002B4D10 /* DeliveryCar.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -104,6 +106,10 @@
 		442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchoviesHateKitchen.m; sourceTree = "<group>"; };
 		442D4E5C1EADE8D6002B4D10 /* VeryGenerousKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryGenerousKitchen.h; sourceTree = "<group>"; };
 		442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryGenerousKitchen.m; sourceTree = "<group>"; };
+		442D4E5F1EADF14D002B4D10 /* DeliveryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryService.h; sourceTree = "<group>"; };
+		442D4E601EADF14D002B4D10 /* DeliveryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
+		442D4E621EADF169002B4D10 /* DeliveryCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		442D4E631EADF169002B4D10 /* DeliveryCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -197,6 +203,10 @@
 				442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */,
 				442D4E5C1EADE8D6002B4D10 /* VeryGenerousKitchen.h */,
 				442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */,
+				442D4E5F1EADF14D002B4D10 /* DeliveryService.h */,
+				442D4E601EADF14D002B4D10 /* DeliveryService.m */,
+				442D4E621EADF169002B4D10 /* DeliveryCar.h */,
+				442D4E631EADF169002B4D10 /* DeliveryCar.m */,
 				442D4E3E1EAD7D07002B4D10 /* Pizza.h */,
 				442D4E3F1EAD7D07002B4D10 /* Pizza.m */,
 				442D4E411EAD7FA7002B4D10 /* PizzaSize.h */,
@@ -419,6 +429,7 @@
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
+				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
@@ -439,6 +450,7 @@
 				442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */,
 				442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */,
 				442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */,
+				442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */,
 				442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */,
 				442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */,
 			);
