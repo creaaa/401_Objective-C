@@ -28,6 +28,8 @@
 		442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E511EADC89D002B4D10 /* Ex9Main.m */; };
 		442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E551EADCBBB002B4D10 /* NSString+NSString.m */; };
 		442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E571EADDFF9002B4D10 /* ex13Main.m */; };
+		442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */; };
+		442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -98,6 +100,10 @@
 		442D4E541EADCBBB002B4D10 /* NSString+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString.h"; sourceTree = "<group>"; };
 		442D4E551EADCBBB002B4D10 /* NSString+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString.m"; sourceTree = "<group>"; };
 		442D4E571EADDFF9002B4D10 /* ex13Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ex13Main.m; sourceTree = "<group>"; };
+		442D4E591EADE834002B4D10 /* AnchoviesHateKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchoviesHateKitchen.h; sourceTree = "<group>"; };
+		442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchoviesHateKitchen.m; sourceTree = "<group>"; };
+		442D4E5C1EADE8D6002B4D10 /* VeryGenerousKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryGenerousKitchen.h; sourceTree = "<group>"; };
+		442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeryGenerousKitchen.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -182,11 +188,15 @@
 			name = Exercise7;
 			sourceTree = "<group>";
 		};
-		442D4E361EAD78E4002B4D10 /* Exercise8 */ = {
+		442D4E361EAD78E4002B4D10 /* Exercise8.11.12 */ = {
 			isa = PBXGroup;
 			children = (
 				442D4E371EAD78FF002B4D10 /* Kitchen.h */,
 				442D4E381EAD78FF002B4D10 /* Kitchen.m */,
+				442D4E591EADE834002B4D10 /* AnchoviesHateKitchen.h */,
+				442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */,
+				442D4E5C1EADE8D6002B4D10 /* VeryGenerousKitchen.h */,
+				442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */,
 				442D4E3E1EAD7D07002B4D10 /* Pizza.h */,
 				442D4E3F1EAD7D07002B4D10 /* Pizza.m */,
 				442D4E411EAD7FA7002B4D10 /* PizzaSize.h */,
@@ -195,7 +205,7 @@
 				442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */,
 				442D4E471EADC3C5002B4D10 /* Ex8Main.m */,
 			);
-			name = Exercise8;
+			name = Exercise8.11.12;
 			sourceTree = "<group>";
 		};
 		442D4E461EADC390002B4D10 /* Exercise9 */ = {
@@ -248,8 +258,6 @@
 			children = (
 				44F3DCAD1EA7FFEC00903A08 /* Dairy */,
 				44F3DCB11EA80B7F00903A08 /* Exercise */,
-				442D4E501EADC87F002B4D10 /* Exercise10 */,
-				442D4E531EADCA7A002B4D10 /* Exercise13 */,
 				4494CB791EA6ACE300E40288 /* main.m */,
 			);
 			path = MyFirstObjC;
@@ -304,8 +312,10 @@
 				4416A6641EAAA9B8003608ED /* Exercise5 */,
 				44E950981EAC25CE002F7AAA /* Exercise6 */,
 				442D4E291EAD47C2002B4D10 /* Exercise7 */,
-				442D4E361EAD78E4002B4D10 /* Exercise8 */,
+				442D4E361EAD78E4002B4D10 /* Exercise8.11.12 */,
 				442D4E461EADC390002B4D10 /* Exercise9 */,
+				442D4E501EADC87F002B4D10 /* Exercise10 */,
+				442D4E531EADCA7A002B4D10 /* Exercise13 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -405,6 +415,7 @@
 				442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */,
+				442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
@@ -425,6 +436,7 @@
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
+				442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */,
 				442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */,
 				442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */,
 				442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */,
