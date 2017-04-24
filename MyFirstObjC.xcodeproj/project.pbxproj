@@ -34,6 +34,9 @@
 		442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E631EADF169002B4D10 /* DeliveryCar.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
+		44A246611EAE66AD00DFFB5D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246601EAE66AD00DFFB5D /* Player.m */; };
+		44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246621EAE685800DFFB5D /* Ex11Main.m */; };
+		44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246641EAE7A2C00DFFB5D /* Ex14Main.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
@@ -113,6 +116,10 @@
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
+		44A2465F1EAE66AD00DFFB5D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		44A246601EAE66AD00DFFB5D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		44A246621EAE685800DFFB5D /* Ex11Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex11Main.m; sourceTree = "<group>"; };
+		44A246641EAE7A2C00DFFB5D /* Ex14Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex14Main.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
@@ -214,6 +221,7 @@
 				442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */,
 				442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */,
 				442D4E471EADC3C5002B4D10 /* Ex8Main.m */,
+				44A246621EAE685800DFFB5D /* Ex11Main.m */,
 			);
 			name = Exercise8.11.12;
 			sourceTree = "<group>";
@@ -273,6 +281,16 @@
 			path = MyFirstObjC;
 			sourceTree = "<group>";
 		};
+		44A2465E1EAE669100DFFB5D /* Exercise14.15 */ = {
+			isa = PBXGroup;
+			children = (
+				44A2465F1EAE66AD00DFFB5D /* Player.h */,
+				44A246601EAE66AD00DFFB5D /* Player.m */,
+				44A246641EAE7A2C00DFFB5D /* Ex14Main.m */,
+			);
+			name = Exercise14.15;
+			sourceTree = "<group>";
+		};
 		44E950981EAC25CE002F7AAA /* Exercise6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +344,7 @@
 				442D4E461EADC390002B4D10 /* Exercise9 */,
 				442D4E501EADC87F002B4D10 /* Exercise10 */,
 				442D4E531EADCA7A002B4D10 /* Exercise13 */,
+				44A2465E1EAE669100DFFB5D /* Exercise14.15 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -436,6 +455,8 @@
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
+				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
+				44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
@@ -452,6 +473,7 @@
 				442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */,
 				442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */,
 				442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */,
+				44A246611EAE66AD00DFFB5D /* Player.m in Sources */,
 				442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
