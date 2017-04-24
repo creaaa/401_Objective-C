@@ -1,23 +1,31 @@
 
 #import <Foundation/Foundation.h>
-#import "Kitchen.h"
-#import "Pizza.h"
-#import "PizzaSize.h"
-#import "NSArray+EnumExtensions.h"
+#import "FoodTruck.h"
+#import "Cook.h"
+
 
 int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         
-        // NSArray* ary = @[@"tamago", @"butter"];
+        FoodTruck *truckA = [[FoodTruck alloc] initWithName:@"Take a Bao" andFoodType:@"bao"];
+        FoodTruck *truckB = [[FoodTruck alloc] initWithName:@"Tim Shortons" andFoodType:@"shortbread"];
         
-        // Pizza* myPizza      = [[Pizza alloc] initWithSize:Medium withTopping: ary];
-        // Pizza* myPepperoniL = [Pizza largePepperoni];
-        Pizza* myMearLoverM    = [Pizza meatLoversWithSize: Medium];
+        // create instances of your delegate class
+        // set truckA and truckB's delegate to your new instance.
+        Cook* myCook = [Cook new];
         
-        //NSLog(@"%@", myPizza);
-        // NSLog(@"%@", myPepperoniL);
-        NSLog(@"%@", myMearLoverM);
+        truckA.delegate = myCook;
+        truckB.delegate = myCook;
+        
+        [truckA serve:10];
+        [truckB serve:5];
+        
+        [truckA cashOut];
+        [truckB cashOut];
         
     }
+    
+    return 0;
+    
 }

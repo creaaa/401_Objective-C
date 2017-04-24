@@ -22,6 +22,9 @@
 		442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3A1EAD7982002B4D10 /* Ex7Main.m */; };
 		442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3F1EAD7D07002B4D10 /* Pizza.m */; };
 		442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E421EAD7FA7002B4D10 /* PizzaSize.m */; };
+		442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E471EADC3C5002B4D10 /* Ex8Main.m */; };
+		442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */; };
+		442D4E4F1EADC444002B4D10 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4E1EADC444002B4D10 /* Cook.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -83,6 +86,11 @@
 		442D4E421EAD7FA7002B4D10 /* PizzaSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaSize.m; sourceTree = "<group>"; };
 		442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EnumExtensions.h"; sourceTree = "<group>"; };
 		442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EnumExtensions.m"; sourceTree = "<group>"; };
+		442D4E471EADC3C5002B4D10 /* Ex8Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex8Main.m; sourceTree = "<group>"; };
+		442D4E491EADC3ED002B4D10 /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		442D4E4D1EADC444002B4D10 /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		442D4E4E1EADC444002B4D10 /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -178,8 +186,20 @@
 				442D4E421EAD7FA7002B4D10 /* PizzaSize.m */,
 				442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */,
 				442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */,
+				442D4E471EADC3C5002B4D10 /* Ex8Main.m */,
 			);
 			name = Exercise8;
+			sourceTree = "<group>";
+		};
+		442D4E461EADC390002B4D10 /* Exercise9 */ = {
+			isa = PBXGroup;
+			children = (
+				442D4E491EADC3ED002B4D10 /* FoodTruck.h */,
+				442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */,
+				442D4E4D1EADC444002B4D10 /* Cook.h */,
+				442D4E4E1EADC444002B4D10 /* Cook.m */,
+			);
+			name = Exercise9;
 			sourceTree = "<group>";
 		};
 		4494CB6D1EA6ACE200E40288 = {
@@ -258,6 +278,7 @@
 				44E950981EAC25CE002F7AAA /* Exercise6 */,
 				442D4E291EAD47C2002B4D10 /* Exercise7 */,
 				442D4E361EAD78E4002B4D10 /* Exercise8 */,
+				442D4E461EADC390002B4D10 /* Exercise9 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -361,6 +382,7 @@
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
+				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
@@ -372,8 +394,10 @@
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
+				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
+				442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */,
 				442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
