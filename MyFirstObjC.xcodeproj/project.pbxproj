@@ -18,6 +18,10 @@
 		442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E2E1EAD51A2002B4D10 /* Patient.m */; };
 		442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E311EAD51AB002B4D10 /* Prescription.m */; };
 		442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */; };
+		442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E381EAD78FF002B4D10 /* Kitchen.m */; };
+		442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3A1EAD7982002B4D10 /* Ex7Main.m */; };
+		442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3F1EAD7D07002B4D10 /* Pizza.m */; };
+		442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E421EAD7FA7002B4D10 /* PizzaSize.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
@@ -70,6 +74,15 @@
 		442D4E311EAD51AB002B4D10 /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
 		442D4E331EAD51BC002B4D10 /* PrescriptionDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionDatabase.h; sourceTree = "<group>"; };
 		442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionDatabase.m; sourceTree = "<group>"; };
+		442D4E371EAD78FF002B4D10 /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		442D4E381EAD78FF002B4D10 /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		442D4E3A1EAD7982002B4D10 /* Ex7Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex7Main.m; sourceTree = "<group>"; };
+		442D4E3E1EAD7D07002B4D10 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		442D4E3F1EAD7D07002B4D10 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		442D4E411EAD7FA7002B4D10 /* PizzaSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaSize.h; sourceTree = "<group>"; };
+		442D4E421EAD7FA7002B4D10 /* PizzaSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaSize.m; sourceTree = "<group>"; };
+		442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EnumExtensions.h"; sourceTree = "<group>"; };
+		442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EnumExtensions.m"; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -149,8 +162,24 @@
 				442D4E311EAD51AB002B4D10 /* Prescription.m */,
 				442D4E331EAD51BC002B4D10 /* PrescriptionDatabase.h */,
 				442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */,
+				442D4E3A1EAD7982002B4D10 /* Ex7Main.m */,
 			);
 			name = Exercise7;
+			sourceTree = "<group>";
+		};
+		442D4E361EAD78E4002B4D10 /* Exercise8 */ = {
+			isa = PBXGroup;
+			children = (
+				442D4E371EAD78FF002B4D10 /* Kitchen.h */,
+				442D4E381EAD78FF002B4D10 /* Kitchen.m */,
+				442D4E3E1EAD7D07002B4D10 /* Pizza.h */,
+				442D4E3F1EAD7D07002B4D10 /* Pizza.m */,
+				442D4E411EAD7FA7002B4D10 /* PizzaSize.h */,
+				442D4E421EAD7FA7002B4D10 /* PizzaSize.m */,
+				442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */,
+				442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */,
+			);
+			name = Exercise8;
 			sourceTree = "<group>";
 		};
 		4494CB6D1EA6ACE200E40288 = {
@@ -228,6 +257,7 @@
 				4416A6641EAAA9B8003608ED /* Exercise5 */,
 				44E950981EAC25CE002F7AAA /* Exercise6 */,
 				442D4E291EAD47C2002B4D10 /* Exercise7 */,
+				442D4E361EAD78E4002B4D10 /* Exercise8 */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -320,6 +350,7 @@
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
 				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
+				442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */,
 				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
@@ -331,11 +362,14 @@
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
+				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
+				442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
+				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
