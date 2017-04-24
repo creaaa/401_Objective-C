@@ -4,10 +4,12 @@
 @interface Player : NSObject
 
 @property Boolean       gameOver;
+@property NSString*     name;
 @property int           currentSquare;
 @property NSDictionary* gameLogic;
 
-- (instancetype) init;
+
+- (instancetype) initWithName: (NSString*) name;
 
 -(void) roll;
 -(void) output: (int) dv;

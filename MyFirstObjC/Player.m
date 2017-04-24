@@ -4,11 +4,12 @@
 @implementation Player
 
 
-- (instancetype) init {
+- (instancetype) initWithName: (NSString*) name {
     
     self = [super init];
     
     if (self) {
+        _name          = name;
         _gameOver      = NO;
         _currentSquare = 0;
         _gameLogic     = @{ @1:@23, @2:@45, @3:@87, @4:@46, @5:@77, @6:@99 };

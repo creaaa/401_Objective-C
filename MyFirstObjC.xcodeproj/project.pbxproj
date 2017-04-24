@@ -37,6 +37,7 @@
 		44A246611EAE66AD00DFFB5D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246601EAE66AD00DFFB5D /* Player.m */; };
 		44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246621EAE685800DFFB5D /* Ex11Main.m */; };
 		44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246641EAE7A2C00DFFB5D /* Ex14Main.m */; };
+		44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246671EAE7AE100DFFB5D /* PlayerManager.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
@@ -120,6 +121,8 @@
 		44A246601EAE66AD00DFFB5D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		44A246621EAE685800DFFB5D /* Ex11Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex11Main.m; sourceTree = "<group>"; };
 		44A246641EAE7A2C00DFFB5D /* Ex14Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex14Main.m; sourceTree = "<group>"; };
+		44A246661EAE7AE100DFFB5D /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		44A246671EAE7AE100DFFB5D /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
@@ -286,6 +289,8 @@
 			children = (
 				44A2465F1EAE66AD00DFFB5D /* Player.h */,
 				44A246601EAE66AD00DFFB5D /* Player.m */,
+				44A246661EAE7AE100DFFB5D /* PlayerManager.h */,
+				44A246671EAE7AE100DFFB5D /* PlayerManager.m */,
 				44A246641EAE7A2C00DFFB5D /* Ex14Main.m */,
 			);
 			name = Exercise14.15;
@@ -436,6 +441,7 @@
 				44F3DCBE1EA96DD400903A08 /* AdditionQuestion.m in Sources */,
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
+				44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */,
 				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
 				442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
