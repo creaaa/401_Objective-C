@@ -79,6 +79,10 @@
         _currentIndex += 1;
     }
     
+    
+    
+    printf("%s\n", [[self score] UTF8String]);
+    
 }
 
 -(void) output: (int) dv {
@@ -88,6 +92,34 @@
     [p output: dv];
     
 }
+
+
+-(NSString*) score {
+    
+    // NEVER forget initialization like this
+    NSMutableString* str = [NSMutableString string];
+    
+    [str appendString:@"\n"];
+    
+    for (int i=0; i<_players.count; i++) {
+        
+        Player* p = (Player*)_players[i];
+        
+        NSString* s = [p score];
+        
+        [str appendString: s];
+    }
+
+    // trim
+    
+    long targetIdx = str.length - 2;
+    [str deleteCharactersInRange: NSMakeRange(targetIdx,2)];
+    
+    [str appendString:@"\n"];
+    
+    return str;
+}
+
 
 -(int) quit {
     

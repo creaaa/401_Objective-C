@@ -13,5 +13,6 @@
 
 -(void) roll;
 -(void) output: (int) dv;
+-(NSString*) score;
 
 @end

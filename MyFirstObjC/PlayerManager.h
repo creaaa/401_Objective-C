@@ -18,6 +18,8 @@
 
 -(void) roll;
 -(void) output: (int) dv;
+-(NSString*) score;
+
 -(int)  quit;
 -(void) restartGame;
 -(void) judgeGameEnd;

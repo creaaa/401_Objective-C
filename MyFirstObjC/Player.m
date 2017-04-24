@@ -71,16 +71,16 @@
     NSLog(@"%@ randed on %ld", _name, (long)_currentSquare);
 }
 
+
+-(NSString*) score {
+    
+    NSString* result;
+    
+    result = [NSString stringWithFormat:@"%@: %d, ", _name, _currentSquare];
+
+    return result;
+}
+
 @end
-
-
-
-
-
-
-
-
-
-
 
 

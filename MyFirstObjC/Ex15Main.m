@@ -21,17 +21,33 @@
 //        
 //        while (true) {
 //            
-//            userInput = [prompter inputForPrompt:@"Type 'roll' or 'r'"];
+//            userInput = [prompter inputForPrompt:@"Type 'roll'('r') or 'quit'"];
 //            userInput = [userInput lowercaseString];
 //            
 //            if ([userInput isEqualToString:@"r"] || [userInput isEqualToString:@"roll"]) {
+//                
 //                [playerManager roll];
+//                
+//                [playerManager judgeGameEnd];
+//                
 //            }
 //            
 //            else if ([userInput isEqualToString:@"quit"]) {
-//                printf("thanks for playing.\n");
-//                break;
+//                
+//                int result = [playerManager quit];
+//                
+//                if (result == 0) {
+//                    printf("Thanks for playing.\n");
+//                    break;
+//                }
+//                
+//                else if (result == 1) {
+//                    printf("Continue.\n");
+//                    [playerManager restartGame];
+//                }
+//                
 //            }
-//        }
+//            
+//        }   // end of infinite roop
 //    }
 //}
