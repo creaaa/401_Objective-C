@@ -11,7 +11,8 @@
     self = [super init];
     
     if (self) {
-        _players = [[NSMutableArray alloc] init];
+        _players      = [[NSMutableArray alloc] init];
+        _currentIndex = 0l;
     }
     
     return self;
@@ -52,6 +53,39 @@
         [_players addObject:player];
         
     }
+    
+}
+
+
+- (Player*) currentPlayer {
+    
+    int idx = (int)_currentIndex;
+    
+    return _players[idx];
+    
+}
+
+
+-(void) roll {
+   
+    Player* p = [self currentPlayer];
+    
+    [p roll];
+    
+    
+    if (_currentIndex+1 >= _players.count) {
+        _currentIndex = 0;
+    } else {
+        _currentIndex += 1;
+    }
+    
+}
+
+-(void) output: (int) dv {
+    
+    Player* p = [self currentPlayer];
+    
+    [p output: dv];
     
 }
 

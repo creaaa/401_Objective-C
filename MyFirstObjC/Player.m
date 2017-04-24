@@ -33,8 +33,7 @@
          for (NSNumber* key in _gameLogic) {
              
              if ([key isEqualToNumber: cs]) {
-                 printf("Hit!!\n");
-                 
+
                  NSNumber* n = _gameLogic[key];
                  
                  // jump
@@ -62,17 +61,15 @@
     // judge it's game over
     if (_currentSquare >= 100) {
         _gameOver = YES;
-        NSLog(@"Reached to goal! Thanks for playing!");
+        printf("Reached to goal! Thanks for playing!\n");
     }
     
     
 }
 
 -(void) output: (int) dv {
-    
-    NSLog(@"dice value: %d", dv);
-    NSLog(@"current square: %ld", (long)_currentSquare);
-    
+    NSLog(@"%@ rolled a %d",   _name, dv);
+    NSLog(@"%@ randed on %ld", _name, (long)_currentSquare);
 }
 
 @end
