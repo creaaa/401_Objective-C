@@ -9,6 +9,10 @@
 
 
 - (instancetype) initWithSize: (PizzaSize) size withTopping: (NSArray*) topping;
++ (Pizza*) largePepperoni;
++ (Pizza*) meatLoversWithSize: (PizzaSize) size;
+
+
 
 - (PizzaSize*) getSize;
 - (NSMutableArray*) getTopping;

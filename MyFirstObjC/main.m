@@ -9,12 +9,15 @@ int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         
-        NSArray* ary = @[@"tamago", @"butter"];
+        // NSArray* ary = @[@"tamago", @"butter"];
         
-        Pizza* myPizza = [[Pizza alloc] initWithSize:Medium withTopping: ary];
+        // Pizza* myPizza      = [[Pizza alloc] initWithSize:Medium withTopping: ary];
+        // Pizza* myPepperoniL = [Pizza largePepperoni];
+        Pizza* myMearLoverM    = [Pizza meatLoversWithSize: Medium];
         
-        NSLog(@"%@", myPizza);
-
+        //NSLog(@"%@", myPizza);
+        // NSLog(@"%@", myPepperoniL);
+        NSLog(@"%@", myMearLoverM);
         
     }
 }

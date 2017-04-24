@@ -22,6 +22,19 @@
     return self;
 }
 
++ (Pizza*) largePepperoni {
+    Pizza* pizza = [[Pizza alloc] initWithSize:Large withTopping: @[@"Pepperoni"] ];
+    return pizza;
+}
+
++ (Pizza*) meatLoversWithSize: (PizzaSize) size {
+    Pizza* pizza = [[Pizza alloc] initWithSize:size withTopping: @[@"Meat"] ];
+    return pizza;
+}
+
+
+
+
 - (PizzaSize*) getSize {
     return _size;
 }
