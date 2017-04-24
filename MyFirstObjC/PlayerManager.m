@@ -89,6 +89,58 @@
     
 }
 
+-(int) quit {
+    
+    InputCollector* prompter = [InputCollector new];
+    NSString* userInput;
+    
+    while (true) {
+        userInput = [prompter inputForPrompt:@"Really quit? (quit / restart)"];
+        if ([userInput isEqualToString:@"quit"] || [userInput isEqualToString:@"restart"] ) {
+            break;
+        } else {
+            printf("Invalid command. Try again.\n");
+        }
+    }
+
+    if ([userInput isEqualToString:@"quit"]) {
+        
+        return 0; // means "quit"
+        
+    }
+    
+    // else if ([userInput isEqualToString:@"restart"]) {
+    return 1;  // // means "erstart"
+    // }
+    
+}
+
+
+-(void) restartGame {
+    
+    // re-initialize players and game condition
+    _players      = [[NSMutableArray alloc] init];
+    _currentIndex = 0l;
+    
+    // decide players
+    [self decidePlayersNo];
+    
+}
+
+
+-(void) judgeGameEnd {
+    
+    for (int i=0; i < _players.count; i++) {
+        
+        if( ((Player*)_players[i]).currentSquare >= 100 ) {
+            printf("%s reached to the GOAL! Thanks for playing!\n", [((Player*)_players[i]).name UTF8String]);
+            printf("\n");
+            
+            exit(0);
+        }
+    }
+}
+
 
 @end
 

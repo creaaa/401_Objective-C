@@ -18,5 +18,9 @@
 
 -(void) roll;
 -(void) output: (int) dv;
+-(int)  quit;
+-(void) restartGame;
+-(void) judgeGameEnd;
+
 
 @end

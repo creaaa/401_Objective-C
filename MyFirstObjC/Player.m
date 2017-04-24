@@ -61,7 +61,6 @@
     // judge it's game over
     if (_currentSquare >= 100) {
         _gameOver = YES;
-        printf("Reached to goal! Thanks for playing!\n");
     }
     
     
