@@ -45,6 +45,8 @@
 		44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */; };
 		44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */; };
 		44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */; };
+		44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */; };
+		44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246801EAF3A8500DFFB5D /* Ex10Main.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
@@ -142,6 +144,9 @@
 		44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
 		44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ex10Helper.h; sourceTree = "<group>"; };
 		44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Helper.m; sourceTree = "<group>"; };
+		44A2467D1EAF37BB00DFFB5D /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		44A246801EAF3A8500DFFB5D /* Ex10Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Main.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
@@ -272,8 +277,11 @@
 				44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */,
 				44A246771EAF2B6800DFFB5D /* AmazonPaymentService.h */,
 				44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */,
+				44A2467D1EAF37BB00DFFB5D /* ApplePaymentService.h */,
+				44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */,
 				44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */,
 				44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */,
+				44A246801EAF3A8500DFFB5D /* Ex10Main.m */,
 			);
 			name = Exercise10;
 			sourceTree = "<group>";
@@ -489,6 +497,7 @@
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
 				44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */,
+				44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
@@ -499,6 +508,7 @@
 				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
 				44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */,
 				44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */,
+				44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
