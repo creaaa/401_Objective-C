@@ -13,7 +13,7 @@
         // Patient* fuga   = [Patient new];
         Patient* taro   = [[Patient alloc] initWithId:1 withName:@"taro" withAge:38 withDiseaseName: @"injure"  withHasCard:true];
         
-        Patient* mika   = [[Patient alloc] initWithId:1 withName:@"mika" withAge:62 withDiseaseName: @"Cold" withHasCard:false];
+        // Patient* mika   = [[Patient alloc] initWithId:1 withName:@"mika" withAge:62 withDiseaseName: @"Cold" withHasCard:false];
 
         // Prescription* pr1 = [[Prescription alloc] initWithName:@"Serious Problem" withPatient: taro];
 
