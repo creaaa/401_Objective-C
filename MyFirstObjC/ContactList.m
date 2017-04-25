@@ -21,4 +21,50 @@
     [_contactAry addObject:newContact];
 }
 
+
+// bonus
+-(void) show: (int) id {
+    
+    for (Contact* person in _contactAry) {
+        
+        if (person.id == id) {
+            printf("HIT!!\n");
+            NSLog(@"%d", person.id);
+            NSLog(@"%@", person.name);
+            NSLog(@"%@", person.email);
+            return;
+        }
+        
+    }
+    
+    printf("Not found...\n");
+    
+}
+
+
+- (void) find: (NSString*) term {
+    
+    for (Contact* person in _contactAry) {
+        
+        NSRange range1 = [[person.name  lowercaseString] rangeOfString: [term lowercaseString]];
+        NSRange range2 = [[person.email lowercaseString] rangeOfString: [term lowercaseString]];
+        
+        if (range1.location != NSNotFound) {
+            NSLog(@"%@", person);
+        } else if (range2.location != NSNotFound) {
+            NSLog(@"%@", person);
+        }
+        
+    }
+    
+}
+
 @end
+
+
+
+
+
+
+
+

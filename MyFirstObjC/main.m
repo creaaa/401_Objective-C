@@ -13,17 +13,35 @@ int main(int argc, const char * argv[]) {
 
         ContactList*    contactList    = [ContactList new];
         InputCollector* inputCollector = [InputCollector new];
-        NSString* inputFromUser;
+        NSString*       inputFromUser;
+        NSArray*        inputInfo;
 
         
         while (true) {
 
             inputFromUser = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application\n>"];
+            
+            inputInfo = [inputFromUser componentsSeparatedByString:@" "];
 
-            if ([inputFromUser isEqualToString:@"new"]) {
+            if ([inputInfo[0] isEqualToString:@"new"]) {
 
-                NSString* name  = [inputCollector inputForPrompt: @"what's a name?"];
+                Boolean isDuplicatedEmail = false;
+                
                 NSString* email = [inputCollector inputForPrompt: @"what's an email?"];
+
+                // for bonus 3: Prevent duplicate entries
+                for (Contact* person in contactList.contactAry) {
+                    
+                    if ([person.email isEqualToString: email]) {
+                        printf("the contact already exists and cannot be created\n");
+                        isDuplicatedEmail = true;
+                        break;
+                    }
+                }
+                
+                if (isDuplicatedEmail) { continue; }
+                
+                NSString* name  = [inputCollector inputForPrompt: @"what's a name?"];
 
                 Contact* newContact = [[Contact alloc] initWithName:name withEmail: email];
 
@@ -31,7 +49,7 @@ int main(int argc, const char * argv[]) {
                 
                 [inputCollector.pastCommandAry addObject:@"new"];
 
-            } else if ([inputFromUser isEqualToString:@"list"]) {
+            } else if ([inputInfo[0] isEqualToString:@"list"]) {
 
                 for (int i=0; i < contactList.contactAry.count; i++) {
                     NSLog(@"%@", contactList.contactAry[i]);
@@ -39,20 +57,25 @@ int main(int argc, const char * argv[]) {
                 
                 [inputCollector.pastCommandAry addObject:@"list"];
 
-            } else if ([inputFromUser isEqualToString:@"quit"]) {
+            } else if ([inputInfo[0] isEqualToString:@"quit"]) {
                 printf("Adieu.\n");
                 break;
                 
             // bonus
-            } else if ([inputFromUser isEqualToString:@"show"]) {
+            } else if ([inputInfo[0] isEqualToString:@"show"]) {
                 
                 [inputCollector.pastCommandAry addObject:@"show"];
                 
-            } else if ([inputFromUser isEqualToString:@"find"]) {
+                [contactList show:[inputInfo[1] intValue]];
+                
+                
+            } else if ([inputInfo[0] isEqualToString:@"find"]) {
                 
                 [inputCollector.pastCommandAry addObject:@"find"];
                 
-            } else if ([inputFromUser isEqualToString:@"history"]) {
+                [contactList find: inputInfo[1]];
+                
+            } else if ([inputInfo[0] isEqualToString:@"history"]) {
                 
                 int i=0;
                 NSInteger idx = inputCollector.pastCommandAry.count-1;

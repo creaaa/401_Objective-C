@@ -10,5 +10,9 @@
 -(instancetype) init;
 -(void)addContact:(Contact *)newContact;
 
+// bonus
+- (void) show: (int) id;
+- (void) find: (NSString*) term;
+
 
 @end
