@@ -33,42 +33,7 @@
 }
 
 
-
-
-- (PizzaSize*) getSize {
-    return _size;
-}
-
-- (NSMutableArray*) getTopping {
-    return _topping;
-}
-
 - (NSString *)description {
-    
-//    printf("Pizza info\n");
-//    
-//    for (int i=0; i<_topping.count; i++) {
-//        NSLog(@"%@", _topping[i]);
-//    }
-//    
-//    NSString* s;
-//    
-//    switch (_size) {
-//        case 0:
-//            s = @"Small";
-//            break;
-//        case 1:
-//            s = @"Medium";
-//            break;
-//        case 2:
-//            s = @"Large";
-//            break;
-//    }
-//    
-//    NSString* str = [NSString stringWithFormat: @"size: %@", s];
-//    
-//    return str;
-    
     
     NSMutableString* result = [NSMutableString string];
     

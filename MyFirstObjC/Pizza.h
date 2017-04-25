@@ -13,10 +13,6 @@
 + (Pizza*) meatLoversWithSize: (PizzaSize) size;
 
 
-
-- (PizzaSize*) getSize;
-- (NSMutableArray*) getTopping;
-
 - (NSString *)description;
 
 
