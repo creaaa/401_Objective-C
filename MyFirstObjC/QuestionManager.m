@@ -20,8 +20,6 @@
     
     [_questions addObject:newQuestion];
     
-    
-    
 }
 
 

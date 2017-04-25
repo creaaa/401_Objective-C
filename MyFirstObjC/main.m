@@ -10,7 +10,6 @@ int main(int argc, const char * argv[]) {
         InputCollector* prompter = [InputCollector new];
         int             command;
         
-        
         NSArray* classNameAry = @[@"Main_Ex1", @"Main_Ex2", @"Main_Ex3", @"Main_Ex4", @"Main_Ex5",
                                   @"Main_Ex6", @"Main_Ex7", @"Main_Ex8", @"Main_Ex9", @"Main_Ex10",
                                   @"Main_Ex11", @"Main_Ex12", @"Main_Ex13", @"Main_Ex14", @"Main_Ex15"];
@@ -29,7 +28,6 @@ int main(int argc, const char * argv[]) {
         
         BaseExercise* exercise = [NSClassFromString(classNameAry[command-1]) new];
         [exercise execute];
-        
     }
     
     return 0;

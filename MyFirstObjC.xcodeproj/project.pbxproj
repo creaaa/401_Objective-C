@@ -13,7 +13,6 @@
 		4416A6671EAAB2A5003608ED /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6661EAAB2A5003608ED /* Contact.m */; };
 		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
 		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
-		442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E271EAD4798002B4D10 /* Ex6Main.m */; };
 		442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E2B1EAD519A002B4D10 /* Doctor.m */; };
 		442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E2E1EAD51A2002B4D10 /* Patient.m */; };
 		442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E311EAD51AB002B4D10 /* Prescription.m */; };
@@ -23,7 +22,6 @@
 		442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E421EAD7FA7002B4D10 /* PizzaSize.m */; };
 		442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */; };
 		442D4E4F1EADC444002B4D10 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4E1EADC444002B4D10 /* Cook.m */; };
-		442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E511EADC89D002B4D10 /* Ex9Main.m */; };
 		442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E551EADCBBB002B4D10 /* NSString+NSString.m */; };
 		442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */; };
 		442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */; };
@@ -56,7 +54,6 @@
 		44A246AE1EAFFF5600DFFB5D /* Main_Ex14.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246AD1EAFFF5600DFFB5D /* Main_Ex14.m */; };
 		44A246B11EB000CA00DFFB5D /* Main_Ex15.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246B01EB000CA00DFFB5D /* Main_Ex15.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
-		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
 		44E9509D1EAC3069002F7AAA /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509C1EAC3069002F7AAA /* Dice.m */; };
 		44E950A01EAC3089002F7AAA /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509F1EAC3089002F7AAA /* GameController.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
@@ -92,7 +89,6 @@
 		4416A6691EAAB2AD003608ED /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		4416A66B1EAAB2D5003608ED /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
 		4416A66C1EAAB2D5003608ED /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
-		442D4E271EAD4798002B4D10 /* Ex6Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex6Main.m; sourceTree = "<group>"; };
 		442D4E2A1EAD519A002B4D10 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
 		442D4E2B1EAD519A002B4D10 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		442D4E2D1EAD51A2002B4D10 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
@@ -113,7 +109,6 @@
 		442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
 		442D4E4D1EADC444002B4D10 /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
 		442D4E4E1EADC444002B4D10 /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
-		442D4E511EADC89D002B4D10 /* Ex9Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex9Main.m; sourceTree = "<group>"; };
 		442D4E541EADCBBB002B4D10 /* NSString+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString.h"; sourceTree = "<group>"; };
 		442D4E551EADCBBB002B4D10 /* NSString+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString.m"; sourceTree = "<group>"; };
 		442D4E591EADE834002B4D10 /* AnchoviesHateKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchoviesHateKitchen.h; sourceTree = "<group>"; };
@@ -177,7 +172,6 @@
 		44A246B01EB000CA00DFFB5D /* Main_Ex15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex15.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
-		44E950991EAC2996002F7AAA /* Ex5Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex5Main.m; sourceTree = "<group>"; };
 		44E9509B1EAC3069002F7AAA /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
 		44E9509C1EAC3069002F7AAA /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 		44E9509E1EAC3089002F7AAA /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
@@ -232,7 +226,6 @@
 				441301A21EAAE05200E51764 /* ScoreKeeper2.m */,
 				44E950951EAC17E8002F7AAA /* QuestionManager.h */,
 				44E950961EAC17E8002F7AAA /* QuestionManager.m */,
-				44E950991EAC2996002F7AAA /* Ex5Main.m */,
 				44A246911EAFF4F700DFFB5D /* Main_Ex5.h */,
 				44A246921EAFF4F700DFFB5D /* Main_Ex5.m */,
 			);
@@ -292,7 +285,6 @@
 				442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */,
 				442D4E4D1EADC444002B4D10 /* Cook.h */,
 				442D4E4E1EADC444002B4D10 /* Cook.m */,
-				442D4E511EADC89D002B4D10 /* Ex9Main.m */,
 				44A246A61EAFFCDD00DFFB5D /* Main_Ex9.h */,
 				44A246A71EAFFCDD00DFFB5D /* Main_Ex9.m */,
 			);
@@ -388,7 +380,6 @@
 				44E9509C1EAC3069002F7AAA /* Dice.m */,
 				44E9509E1EAC3089002F7AAA /* GameController.h */,
 				44E9509F1EAC3089002F7AAA /* GameController.m */,
-				442D4E271EAD4798002B4D10 /* Ex6Main.m */,
 				44A246941EAFF56500DFFB5D /* Main_Ex6.h */,
 				44A246951EAFF56500DFFB5D /* Main_Ex6.m */,
 			);
@@ -540,7 +531,6 @@
 				44A2468D1EAFF10E00DFFB5D /* Main_Ex3.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */,
-				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
 				44A246AB1EAFFEEF00DFFB5D /* Main_Ex13.m in Sources */,
 				442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
@@ -550,7 +540,6 @@
 				44A246961EAFF56500DFFB5D /* Main_Ex6.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				44A246A51EAFF94500DFFB5D /* Main_Ex12.m in Sources */,
-				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				44A246A21EAFF93D00DFFB5D /* Main_Ex11.m in Sources */,
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
@@ -579,7 +568,6 @@
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
 				442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */,
-				442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */,
 				442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */,
 				442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */,
 				44A2469C1EAFF91600DFFB5D /* Main_Ex8.m in Sources */,

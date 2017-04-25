@@ -29,12 +29,6 @@
 //        
 //        NSString* st1 = [NSString stringWithFormat:@"My name is %@", @"Derrick"];
 //        
-//        
-//        
-//        
-//        
-//        
-//        
 //    } // autoreleasepool
 //    
 //    return 0;
