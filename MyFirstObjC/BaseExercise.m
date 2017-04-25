@@ -4,7 +4,7 @@
 @implementation BaseExercise
 
 - (void) execute {
-    
+
 }
 
 @end

@@ -1,10 +1,6 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseExercise.h"
-#import "BaseExercise.h"
-
-#import "Main_Ex2.h"
-
 #import "InputCollector.h"
 
 int main(int argc, const char * argv[]) {
@@ -13,7 +9,7 @@ int main(int argc, const char * argv[]) {
         
         InputCollector* prompter = [InputCollector new];
         int             command;
-        BaseExercise*   exercise;
+        
         
         NSArray* classNameAry = @[@"Main_Ex1", @"Main_Ex2", @"Main_Ex3", @"Main_Ex4", @"Main_Ex5",
                                   @"Main_Ex6", @"Main_Ex7", @"Main_Ex8", @"Main_Ex9", @"Main_Ex10",
@@ -31,9 +27,13 @@ int main(int argc, const char * argv[]) {
             break;
         }
         
-        exercise = [NSClassFromString(classNameAry[command-1]) new];
+        BaseExercise* exercise = [NSClassFromString(classNameAry[command-1]) new];
         [exercise execute];
+        
     }
+    
+    return 0;
+    
 }
 
 

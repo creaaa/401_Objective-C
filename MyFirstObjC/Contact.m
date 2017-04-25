@@ -11,9 +11,9 @@ static int idCount = 0;
     self = [super init];
     
     if(self) {
-        _id    = idCount;
-        _name  = name;
-        _email = email;
+        _id           = idCount;
+        _name         = name;
+        _email        = email;
         _phoneNumbers = [NSMutableDictionary dictionary];
     }
     
@@ -35,8 +35,8 @@ static int idCount = 0;
         
         NSString* s = [NSString stringWithFormat: @"%@, => %@, ", key, value];
         [phoneInfo appendString: s];
-        
     }
+    
     
     // trim
     long targetIdx = phoneInfo.length - 2;
