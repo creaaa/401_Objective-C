@@ -5,8 +5,8 @@
 
 typedef NS_ENUM (NSInteger, PizzaSize) {
     Small  = 0,
-    Medium = 1,
-    Large  = 2
+    Medium,
+    Large
 };
 
 // enumと定義と一緒に文字列定義をマクロで記述

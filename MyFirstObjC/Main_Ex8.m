@@ -8,7 +8,7 @@
     @autoreleasepool {
 
         NSArray* ary        = @[@"egg", @"cheese", @"salami"];
-        Pizza* myPizza      = [[Pizza alloc] initWithSize:Medium withTopping: ary];
+        Pizza* myPizza      = [[Pizza alloc] initWithSize: Medium withTopping: ary];
         Pizza* myPepperoniL = [Pizza largePepperoni];
         Pizza* myMearLoverM = [Pizza meatLoversWithSize: Medium];
         

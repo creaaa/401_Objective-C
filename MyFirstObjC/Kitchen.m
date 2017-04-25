@@ -58,7 +58,7 @@
     
     
     // store size
-    PizzaSize size;
+    PizzaSize size = (PizzaSize)NULL;
     // store topping
     NSMutableArray* toppingAry = [[NSMutableArray alloc] init];
     
@@ -66,15 +66,12 @@
     for (int i=0; i < commandWords.count; i++) {
         
         if (i == 0) {
-            // fixme
-            // size = (PizzaSize)commandWords[i];
             size = [self convertStringToEnum: commandWords[i]];
         }
         
         else {
             [toppingAry addObject:commandWords[i]];
         }
-        
     }
     
     return [self makePizzaWithSize: size toppings: toppingAry];
@@ -137,11 +134,8 @@
         return Large;
     }
 
-    return NULL;
+    return (PizzaSize)NULL;
     
 }
-
-
-
 
 @end
