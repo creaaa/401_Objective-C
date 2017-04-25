@@ -69,6 +69,35 @@
 //    
 //    return str;
     
+    
+    NSMutableString* result = [NSMutableString string];
+    
+    switch (_size) {
+        case 0:
+            [result appendString:@"Size: Small, "];
+            break;
+        case 1:
+            [result appendString:@"Size: Medium, "];
+            break;
+        case 2:
+            [result appendString:@"Size: Large, "];
+            break;
+    }
+    
+    [result appendString: @"Topping: "];
+
+    for (int i=0; i<_topping.count; i++) {
+        
+        NSString* s = [NSString stringWithFormat: @"%@, ", _topping[i]];
+        
+        [result appendString: s];
+    }
+    
+    long targetIdx = result.length - 2;
+    [result deleteCharactersInRange: NSMakeRange(targetIdx,2)];
+    
+    return result;
+    
 }
 
 @end

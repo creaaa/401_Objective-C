@@ -39,13 +39,10 @@ int main(int argc, const char * argv[]) {
                 kitchen.delegate = vg_kitchen;
                 break;
             } else {
-                printf("Invalid input. Try again.\n");
+                printf("didn't delegate task to the manager.\n");
+                break;
             }
-            
         }
-        
-        
-        
         
         
         userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
