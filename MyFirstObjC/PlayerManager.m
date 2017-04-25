@@ -111,7 +111,6 @@
     }
 
     // trim
-    
     long targetIdx = str.length - 2;
     [str deleteCharactersInRange: NSMakeRange(targetIdx,2)];
     

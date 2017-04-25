@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         
         while (true) {
 
-            inputFromUser = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application\n>"];
+            inputFromUser = [inputCollector inputForPrompt: @"What would you like to do next?\n\nnew - Create a new contact\nlist - List all contacts\nshow - Designate id then show info\nfind - Designate term(substring) then show all datas matched\nphone - Designate id then add phone info\nhistory - Show past 3 command\nquit - Exit Application\n\n>"];
             
             inputInfo = [inputFromUser componentsSeparatedByString:@" "];
 
@@ -75,6 +75,10 @@ int main(int argc, const char * argv[]) {
                 
                 [contactList find: inputInfo[1]];
                 
+            } else if ([inputInfo[0] isEqualToString:@"phone"]) {
+            
+                [contactList addPhonesInfo: [inputInfo[1] intValue]];
+                
             } else if ([inputInfo[0] isEqualToString:@"history"]) {
                 
                 int i=0;
@@ -88,8 +92,7 @@ int main(int argc, const char * argv[]) {
                     
                     printf("%s\n", [inputCollector.pastCommandAry[idx] UTF8String]);
                     
-                    idx--;
-                    i++;
+                    idx--; i++;
                     
                 }
                 
