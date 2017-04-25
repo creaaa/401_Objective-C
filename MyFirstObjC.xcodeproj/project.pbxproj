@@ -40,6 +40,11 @@
 		44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246671EAE7AE100DFFB5D /* PlayerManager.m */; };
 		44A2466A1EAE9B0500DFFB5D /* Ex15Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246691EAE9B0500DFFB5D /* Ex15Main.m */; };
 		44A2466C1EAF245C00DFFB5D /* Ex12Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2466B1EAF245C00DFFB5D /* Ex12Main.m */; };
+		44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */; };
+		44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246721EAF2B4D00DFFB5D /* PaypalPaymentService.m */; };
+		44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */; };
+		44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */; };
+		44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
@@ -127,6 +132,16 @@
 		44A246671EAE7AE100DFFB5D /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		44A246691EAE9B0500DFFB5D /* Ex15Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex15Main.m; sourceTree = "<group>"; };
 		44A2466B1EAF245C00DFFB5D /* Ex12Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex12Main.m; sourceTree = "<group>"; };
+		44A2466E1EAF29BE00DFFB5D /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		44A246711EAF2B4D00DFFB5D /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		44A246721EAF2B4D00DFFB5D /* PaypalPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		44A246741EAF2B5E00DFFB5D /* StripePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		44A246771EAF2B6800DFFB5D /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ex10Helper.h; sourceTree = "<group>"; };
+		44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Helper.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
@@ -249,6 +264,16 @@
 		442D4E501EADC87F002B4D10 /* Exercise10 */ = {
 			isa = PBXGroup;
 			children = (
+				44A2466E1EAF29BE00DFFB5D /* PaymentGateway.h */,
+				44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */,
+				44A246711EAF2B4D00DFFB5D /* PaypalPaymentService.h */,
+				44A246721EAF2B4D00DFFB5D /* PaypalPaymentService.m */,
+				44A246741EAF2B5E00DFFB5D /* StripePaymentService.h */,
+				44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */,
+				44A246771EAF2B6800DFFB5D /* AmazonPaymentService.h */,
+				44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */,
+				44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */,
+				44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */,
 			);
 			name = Exercise10;
 			sourceTree = "<group>";
@@ -457,24 +482,29 @@
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
 				44A2466A1EAE9B0500DFFB5D /* Ex15Main.m in Sources */,
 				442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */,
+				44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */,
 				442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
 				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
+				44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
+				44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */,
 				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
+				44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */,
 				44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */,
 				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
+				44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */,
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
