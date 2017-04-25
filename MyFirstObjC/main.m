@@ -45,33 +45,49 @@ int main(int argc, const char * argv[]) {
         }
         
         
-        userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
-        NSArray* commandWords = [userInput componentsSeparatedByString:@" "];
         
         
-        // store size
-        PizzaSize size;
-        // store topping
-        NSMutableArray* toppingAry = [[NSMutableArray alloc] init];
-
         
-        for (int i=0; i < commandWords.count; i++) {
-            
-            if (i == 0) {
-                // fixme
-                // size = (PizzaSize)commandWords[i];
-                size = [kitchen convertStringToEnum: commandWords[i]]; 
-            }
-            
-            else {
-                [toppingAry addObject:commandWords[i]];
-            }
-            
-        }
         
-        // madePizza = [kitchen makePizzaWithSize:Medium toppings:@[@"cheese"]];
         
-        madePizza = [kitchen makePizzaWithSize: size toppings: toppingAry];
+//        userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
+//        NSArray* commandWords = [userInput componentsSeparatedByString:@" "];
+//        
+//        
+//        // store size
+//        PizzaSize size;
+//        // store topping
+//        NSMutableArray* toppingAry = [[NSMutableArray alloc] init];
+//
+//        
+//        for (int i=0; i < commandWords.count; i++) {
+//            
+//            if (i == 0) {
+//                // fixme
+//                // size = (PizzaSize)commandWords[i];
+//                size = [kitchen convertStringToEnum: commandWords[i]]; 
+//            }
+//            
+//            else {
+//                [toppingAry addObject:commandWords[i]];
+//            }
+//            
+//        }
+//        
+//        // madePizza = [kitchen makePizzaWithSize:Medium toppings:@[@"cheese"]];
+//        
+//        madePizza = [kitchen makePizzaWithSize: size toppings: toppingAry];
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         NSLog(@"Dive in! %@", madePizza);
 
