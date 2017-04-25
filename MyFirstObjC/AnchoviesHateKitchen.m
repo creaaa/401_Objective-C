@@ -11,6 +11,7 @@
         
         // if it includes anchovies
         if ([topping isEqualToString:@"anchovy"] || [topping isEqualToString:@"anchovies"]) {
+            printf("Oh, I hate anchovies. I don't make anything!\n");
             return false;
         }
     }

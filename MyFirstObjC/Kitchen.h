@@ -21,8 +21,10 @@
 
 @property (nonatomic, weak) id<KitchenDelegate> delegate;
 
-- (Pizza*) makePizza;
+// FIXME: - doesn't work
+// - (id<KitchenDelegate>) setDelegateFromUserInput;
 
+- (Pizza*) makePizza;
 - (Pizza*) makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings;
 - (PizzaSize) convertStringToEnum: (NSString*) sizeStr;
 

@@ -1,13 +1,60 @@
 
 #import "Kitchen.h"
+#import "AnchoviesHateKitchen.h"
+#import "VeryGenerousKitchen.h"
+#import "InputCollector.h"  // from Ex4
+
 
 @implementation Kitchen
+
+// FIXME: - doesn't work
+- (id<KitchenDelegate>) setDelegateFromUserInput {
+
+    InputCollector* prompter = [InputCollector new];
+    
+    // AnchoviesHateKitchen* ah_kitchen = [[AnchoviesHateKitchen alloc] init];
+    // VeryGenerousKitchen*  vg_kitchen = [VeryGenerousKitchen new];
+    
+    
+    // while (true) {
+
+        NSString* userInput = [prompter inputForPrompt:@"Which manager do you like? (anchovies/gene)"];
+
+        if ([userInput isEqualToString:@"anchovies"]) {
+            printf("delegated to AnchoviesHateKitchen\n");
+            
+            return [[AnchoviesHateKitchen alloc] init];
+            
+            //_delegate = ah_kitchen;
+            // break;
+        }
+
+        else if ([userInput isEqualToString:@"gene"]) {
+            printf("delegated to VeryGenerousKitchen\n");
+            
+            return [VeryGenerousKitchen new];
+            
+            // _delegate = vg_kitchen;
+            //self.delegate = vg_kitchen;
+            // break;
+        } else {
+            printf("didn't delegate task to the manager.\n");
+            return NULL;
+            // break;
+        }
+    
+    // }
+    
+}
 
 
 - (Pizza*) makePizza {
     
-    userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
-    NSArray* commandWords = [userInput componentsSeparatedByString:@" "];
+    InputCollector* prompter = [InputCollector new];
+    
+    printf("\n");
+    NSString* userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
+    NSArray*  commandWords = [userInput componentsSeparatedByString:@" "];
     
     
     // store size
@@ -21,7 +68,7 @@
         if (i == 0) {
             // fixme
             // size = (PizzaSize)commandWords[i];
-            size = [kitchen convertStringToEnum: commandWords[i]];
+            size = [self convertStringToEnum: commandWords[i]];
         }
         
         else {
@@ -30,16 +77,14 @@
         
     }
     
-    // madePizza = [kitchen makePizzaWithSize:Medium toppings:@[@"cheese"]];
-    
-    madePizza = [kitchen makePizzaWithSize: size toppings: toppingAry];
+    return [self makePizzaWithSize: size toppings: toppingAry];
     
 }
 
 
 - (Pizza*) makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings {
     
-    
+    // set false if there is no delegate
     Boolean shouldMakePizza = [self.delegate kitchen:self shouldMakePizzaOfSize: Small andToppings: toppings];
     Boolean shouldMakeSizeLarge = [self.delegate kitchenShouldUpgradeOrder:self];
     
@@ -48,10 +93,23 @@
         
         if (shouldMakeSizeLarge) {
             Pizza* pizza = [[Pizza alloc] initWithSize: Large withTopping: toppings];
+            
+            // 注意: (kitchenDidMakePizza:pizza:)ではない！！第1引数は無視されるので書いちゃダメ！
+            // 条件がおかしくなるぞ！！
+            if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
+                [self.delegate kitchenDidMakePizza:pizza];
+            }
+            
+            
             return pizza;
         }
         
         Pizza* pizza = [[Pizza alloc] initWithSize: size withTopping: toppings];
+        
+        if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
+            [self.delegate kitchenDidMakePizza:pizza];
+        }
+        
         return pizza;
     }
     

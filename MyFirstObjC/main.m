@@ -24,81 +24,27 @@ int main(int argc, const char * argv[]) {
         NSString*       userInput;
 
         
-        while (true) {
+        userInput = [prompter inputForPrompt:@"Which manager do you like? (anchovies/gene)"];
 
-            userInput = [prompter inputForPrompt:@"Which manager do you like? (anchovies/gene)"];
-
-            if ([userInput isEqualToString:@"anchovies"]) {
-                printf("delegated to AnchoviesHateKitchen\n");
-                kitchen.delegate = ah_kitchen;
-                break;
-            }
-            
-            else if ([userInput isEqualToString:@"gene"]) {
-                printf("delegated to VeryGenerousKitchen\n");
-                kitchen.delegate = vg_kitchen;
-                break;
-            } else {
-                printf("didn't delegate task to the manager.\n");
-                break;
-            }
+        if ([userInput isEqualToString:@"anchovies"]) {
+            printf("delegated to AnchoviesHateKitchen\n");
+            kitchen.delegate = ah_kitchen;
         }
         
+        else if ([userInput isEqualToString:@"gene"]) {
+            printf("delegated to VeryGenerousKitchen\n");
+            kitchen.delegate = vg_kitchen;
+            
+        } else {
+            printf("didn't delegate task to the manager.\n");
+        }
+
         
-        
-        
-        
-        
-        
-//        userInput = [prompter inputForPrompt:@"♪ Input MAKEPIZZA command: >\n"];
-//        NSArray* commandWords = [userInput componentsSeparatedByString:@" "];
-//        
-//        
-//        // store size
-//        PizzaSize size;
-//        // store topping
-//        NSMutableArray* toppingAry = [[NSMutableArray alloc] init];
-//
-//        
-//        for (int i=0; i < commandWords.count; i++) {
-//            
-//            if (i == 0) {
-//                // fixme
-//                // size = (PizzaSize)commandWords[i];
-//                size = [kitchen convertStringToEnum: commandWords[i]]; 
-//            }
-//            
-//            else {
-//                [toppingAry addObject:commandWords[i]];
-//            }
-//            
-//        }
-//        
-//        // madePizza = [kitchen makePizzaWithSize:Medium toppings:@[@"cheese"]];
-//        
-//        madePizza = [kitchen makePizzaWithSize: size toppings: toppingAry];
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        madePizza = [kitchen makePizza];
         NSLog(@"Dive in! %@", madePizza);
 
     }
 
 }
-
-
-
-
-
-
 
 
