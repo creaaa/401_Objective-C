@@ -17,12 +17,21 @@
 @end
 
 
-
-
 @interface Kitchen : NSObject
 
 @property (nonatomic, weak) id<KitchenDelegate> delegate;
 
 - (Pizza*) makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings;
 
+- (PizzaSize) convertStringToEnum: (NSString*) sizeStr;
+
 @end
+
+
+
+
+
+
+
+
+

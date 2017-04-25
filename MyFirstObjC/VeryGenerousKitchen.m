@@ -4,17 +4,17 @@
 @implementation VeryGenerousKitchen
 
 - (BOOL)kitchen: (Kitchen *) kitchen shouldMakePizzaOfSize: (PizzaSize) size andToppings: (NSArray*) toppings {
-    return false;
+    return true;
 }
 
 // trueなら、オーダーのサイズにかかわらず、必ずLargeサイズになる
 - (BOOL)kitchenShouldUpgradeOrder: (Kitchen *) kitchen {
-    return false;
+    return true;
 }
 
 // ピザが作られた直後に呼ばれる。
 - (void)kitchenDidMakePizza: (Pizza*) pizza {
-    
+    NSLog(@"Coming right up♪");
 }
 
 @end

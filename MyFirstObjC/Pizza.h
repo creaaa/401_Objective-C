@@ -8,7 +8,7 @@
 @property NSMutableArray* topping;
 
 
-- (instancetype) initWithSize: (PizzaSize) size withTopping: (NSArray*) topping;
+- (instancetype) initWithSize: (PizzaSize) size withTopping: (NSArray*) toppings;
 + (Pizza*) largePepperoni;
 + (Pizza*) meatLoversWithSize: (PizzaSize) size;
 

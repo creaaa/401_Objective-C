@@ -4,7 +4,19 @@
 @implementation AnchoviesHateKitchen
 
 - (BOOL)kitchen: (Kitchen *) kitchen shouldMakePizzaOfSize: (PizzaSize) size andToppings: (NSArray*) toppings {
-    return false;
+    
+    for (int i=0; i < toppings.count; i++) {
+        
+        NSString* topping = [toppings[i] lowercaseString];
+        
+        // if it includes anchovies
+        if ([topping isEqualToString:@"anchovy"] || [topping isEqualToString:@"anchovies"]) {
+            return false;
+        }
+    }
+    
+    return true;
+    
 }
 
 // trueなら、オーダーのサイズにかかわらず、必ずLargeサイズになる
@@ -14,7 +26,7 @@
 
 // ピザが作られた直後に呼ばれる。
 - (void)kitchenDidMakePizza: (Pizza*) pizza {
-    
+    // do nothing
 }
 
 @end
