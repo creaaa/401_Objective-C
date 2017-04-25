@@ -1,8 +1,7 @@
 
 #import "BaseExercise.h"
-#import "Box.h"
 
-@interface Main_Ex2 : BaseExercise
+@interface Main_Ex1 : BaseExercise
 
 - (void) execute;
 

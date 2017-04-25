@@ -5,7 +5,6 @@
 
 @property int correctAnswer;
 
-
 - (void)    generateRandomQuestion;
 - (Boolean) judge: (int) userAnswer;
 

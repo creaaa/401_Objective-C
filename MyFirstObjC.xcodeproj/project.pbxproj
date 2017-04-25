@@ -49,20 +49,19 @@
 		44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246801EAF3A8500DFFB5D /* Ex10Main.m */; };
 		44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246831EAFDC7400DFFB5D /* BaseExercise.m */; };
 		44A246871EAFE71300DFFB5D /* Main_Ex2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246861EAFE71300DFFB5D /* Main_Ex2.m */; };
-		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
+		44A2468A1EAFEDD800DFFB5D /* Main_Ex1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246891EAFEDD800DFFB5D /* Main_Ex1.m */; };
+		44A2468D1EAFF10E00DFFB5D /* Main_Ex3.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2468C1EAFF10E00DFFB5D /* Main_Ex3.m */; };
+		44A246901EAFF44B00DFFB5D /* Main_Ex4.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2468F1EAFF44B00DFFB5D /* Main_Ex4.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
 		44E9509D1EAC3069002F7AAA /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509C1EAC3069002F7AAA /* Dice.m */; };
 		44E950A01EAC3089002F7AAA /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509F1EAC3089002F7AAA /* GameController.m */; };
-		44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCA81EA7FB5B00903A08 /* Project1.m */; };
 		44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAB1EA7FC7700903A08 /* Person.m */; };
 		44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCAE1EA8000F00903A08 /* _0419.m */; };
 		44F3DCB51EA80CA500903A08 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCB41EA80CA500903A08 /* Box.m */; };
-		44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCB71EA8319900903A08 /* Ex2Main.m */; };
 		44F3DCBE1EA96DD400903A08 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCBD1EA96DD400903A08 /* AdditionQuestion.m */; };
 		44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCC01EA9764200903A08 /* InputHandler.m */; };
 		44F3DCC41EA9781200903A08 /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCC31EA9781200903A08 /* ScoreKeeper.m */; };
-		44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DCC51EA98BD500903A08 /* Ex3Main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,7 +152,12 @@
 		44A246831EAFDC7400DFFB5D /* BaseExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseExercise.m; sourceTree = "<group>"; };
 		44A246851EAFE71300DFFB5D /* Main_Ex2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex2.h; sourceTree = "<group>"; };
 		44A246861EAFE71300DFFB5D /* Main_Ex2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex2.m; sourceTree = "<group>"; };
-		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
+		44A246881EAFEDD800DFFB5D /* Main_Ex1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex1.h; sourceTree = "<group>"; };
+		44A246891EAFEDD800DFFB5D /* Main_Ex1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex1.m; sourceTree = "<group>"; };
+		44A2468B1EAFF10E00DFFB5D /* Main_Ex3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex3.h; sourceTree = "<group>"; };
+		44A2468C1EAFF10E00DFFB5D /* Main_Ex3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex3.m; sourceTree = "<group>"; };
+		44A2468E1EAFF44B00DFFB5D /* Main_Ex4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex4.h; sourceTree = "<group>"; };
+		44A2468F1EAFF44B00DFFB5D /* Main_Ex4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex4.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 		44E950991EAC2996002F7AAA /* Ex5Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex5Main.m; sourceTree = "<group>"; };
@@ -161,20 +165,17 @@
 		44E9509C1EAC3069002F7AAA /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 		44E9509E1EAC3089002F7AAA /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		44E9509F1EAC3089002F7AAA /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
-		44F3DCA81EA7FB5B00903A08 /* Project1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
 		44F3DCAA1EA7FC7700903A08 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		44F3DCAB1EA7FC7700903A08 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		44F3DCAE1EA8000F00903A08 /* _0419.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0419.m; sourceTree = "<group>"; };
 		44F3DCB31EA80CA500903A08 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
 		44F3DCB41EA80CA500903A08 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
-		44F3DCB71EA8319900903A08 /* Ex2Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex2Main.m; sourceTree = "<group>"; };
 		44F3DCBC1EA96DD400903A08 /* AdditionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
 		44F3DCBD1EA96DD400903A08 /* AdditionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
 		44F3DCBF1EA9764200903A08 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		44F3DCC01EA9764200903A08 /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 		44F3DCC21EA9781200903A08 /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
 		44F3DCC31EA9781200903A08 /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
-		44F3DCC51EA98BD500903A08 /* Ex3Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex3Main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +198,8 @@
 				4416A6691EAAB2AD003608ED /* ContactList.m */,
 				4416A66B1EAAB2D5003608ED /* InputCollector.h */,
 				4416A66C1EAAB2D5003608ED /* InputCollector.m */,
-				44E950931EAC072C002F7AAA /* Ex4Main.m */,
+				44A2468E1EAFF44B00DFFB5D /* Main_Ex4.h */,
+				44A2468F1EAFF44B00DFFB5D /* Main_Ex4.m */,
 			);
 			name = Exercise4;
 			sourceTree = "<group>";
@@ -356,7 +358,8 @@
 		44F3DCA71EA7FB4600903A08 /* Exercise1 */ = {
 			isa = PBXGroup;
 			children = (
-				44F3DCA81EA7FB5B00903A08 /* Project1.m */,
+				44A246881EAFEDD800DFFB5D /* Main_Ex1.h */,
+				44A246891EAFEDD800DFFB5D /* Main_Ex1.m */,
 			);
 			name = Exercise1;
 			sourceTree = "<group>";
@@ -406,7 +409,6 @@
 			children = (
 				44F3DCB31EA80CA500903A08 /* Box.h */,
 				44F3DCB41EA80CA500903A08 /* Box.m */,
-				44F3DCB71EA8319900903A08 /* Ex2Main.m */,
 				44A246851EAFE71300DFFB5D /* Main_Ex2.h */,
 				44A246861EAFE71300DFFB5D /* Main_Ex2.m */,
 			);
@@ -422,7 +424,8 @@
 				44F3DCC01EA9764200903A08 /* InputHandler.m */,
 				44F3DCC21EA9781200903A08 /* ScoreKeeper.h */,
 				44F3DCC31EA9781200903A08 /* ScoreKeeper.m */,
-				44F3DCC51EA98BD500903A08 /* Ex3Main.m */,
+				44A2468B1EAFF10E00DFFB5D /* Main_Ex3.h */,
+				44A2468C1EAFF10E00DFFB5D /* Main_Ex3.m */,
 			);
 			name = Exercise3;
 			sourceTree = "<group>";
@@ -492,7 +495,9 @@
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
 				44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */,
 				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
+				44A2468A1EAFEDD800DFFB5D /* Main_Ex1.m in Sources */,
 				442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */,
+				44A2468D1EAFF10E00DFFB5D /* Main_Ex3.m in Sources */,
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */,
 				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
@@ -514,7 +519,6 @@
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
 				44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */,
-				44F3DCB81EA8319900903A08 /* Ex2Main.m in Sources */,
 				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
 				44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */,
 				44A246871EAFE71300DFFB5D /* Main_Ex2.m in Sources */,
@@ -523,16 +527,14 @@
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
-				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */,
-				44F3DCC61EA98BD500903A08 /* Ex3Main.m in Sources */,
 				44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */,
+				44A246901EAFF44B00DFFB5D /* Main_Ex4.m in Sources */,
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
-				44F3DCA91EA7FB5B00903A08 /* Project1.m in Sources */,
 				44A2466C1EAF245C00DFFB5D /* Ex12Main.m in Sources */,
 				442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */,
 				442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */,

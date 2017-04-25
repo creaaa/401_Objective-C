@@ -15,31 +15,24 @@ int main(int argc, const char * argv[]) {
         int             command;
         BaseExercise*   exercise;
         
+        NSArray* classNameAry = @[@"Main_Ex1", @"Main_Ex2", @"Main_Ex3", @"Main_Ex4", @"Main_Ex5",
+                                  @"Main_Ex6", @"Main_Ex7", @"Main_Ex8", @"Main_Ex9", @"Main_Ex10",
+                                  @"Main_Ex11", @"Main_Ex12", @"Main_Ex13", @"Main_Ex14", @"Main_Ex15"];
         
-//        command = [[prompter inputForPrompt:@"Input Assignment No: "] intValue];
-
-        while(true) {
+        while (true) {
 
             command = [[prompter inputForPrompt:@"Input Assignment No: "] intValue];
             
-            if (command <= 0) {
-                printf("Invalid number. Try again...");
+            if (command <= 0 || command >= classNameAry.count) {
+                printf("Invalid number. Try again...\n");
                 continue;
             }
             
             break;
         }
         
-        
-        NSArray* classNameAry = @[@"Main_Ex1", @"Main_Ex2", @"Main_Ex3"];
-        
         exercise = [NSClassFromString(classNameAry[command-1]) new];
-        
-        if (exercise != nil) {
-            [exercise execute];
-        } else {
-            printf("Assignment not found. Try again...");
-        }
+        [exercise execute];
     }
 }
 
