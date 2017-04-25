@@ -30,4 +30,32 @@
     [_deliveryService deliverPizza:pizza];
 }
 
+
+//- (instancetype) init {
+//    
+//    self = [super init];
+//    
+//    if(self) {
+//        _deliveryService = [DeliveryService new];
+//    }
+//    
+//    return self;
+//    
+//}
+
+
+- (instancetype)initWithDeliveryCar: (DeliveryCar*) car {
+
+        self = [super init];
+    
+        if(self) {
+            _deliveryService = [[DeliveryService alloc] initWithDeliveryCar:car];
+        }
+    
+        return self;
+    
+}
+
+
+
 @end

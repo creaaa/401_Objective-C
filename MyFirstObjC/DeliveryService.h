@@ -9,6 +9,8 @@
 
 
 - (void) deliverPizza:(Pizza *) pizza;
-- (void) printDeliveredPizzaInfo;
+- (void) printDeliveredPizzaInfo:(Pizza *) pizza;
+
+- (instancetype)initWithDeliveryCar: (DeliveryCar*) car;
 
 @end

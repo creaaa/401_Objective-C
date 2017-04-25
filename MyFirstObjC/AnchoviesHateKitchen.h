@@ -14,4 +14,9 @@
 // ピザが作られた直後に呼ばれる。
 - (void)kitchenDidMakePizza: (Pizza*) pizza;
 
+
+// - (instancetype)init;
+- (instancetype)initWithDeliveryCar: (DeliveryCar*) car;
+
+
 @end

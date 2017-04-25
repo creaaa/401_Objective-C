@@ -5,16 +5,39 @@
 
 
 - (void) deliverPizza:(Pizza *) pizza {
-    
-    // call printDeliveredPizzaInfo
+    [self printDeliveredPizzaInfo:pizza];
 }
 
-- (void) printDeliveredPizzaInfo {
+- (void) printDeliveredPizzaInfo:(Pizza *) pizza{
+    [_deliveryCar deliverPizza:pizza];
+}
+
+
+//- (instancetype)init {
+//    
+//    self = [super init];
+//    
+//    if(self) {
+//        _deliveryCar = [DeliveryCar new];
+//    }
+//    
+//    return self;
+//    
+//}
+
+
+- (instancetype)initWithDeliveryCar: (DeliveryCar*) car {
     
-    // call deliverPizza in DeliveryCar
+        self = [super init];
     
+        if(self) {
+            _deliveryCar = car;
+        }
+    
+        return self;
     
 }
+
 
 
 @end
