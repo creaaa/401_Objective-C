@@ -47,6 +47,7 @@
 		44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */; };
 		44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */; };
 		44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246801EAF3A8500DFFB5D /* Ex10Main.m */; };
+		44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246831EAFDC7400DFFB5D /* BaseExercise.m */; };
 		44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950931EAC072C002F7AAA /* Ex4Main.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
@@ -147,6 +148,8 @@
 		44A2467D1EAF37BB00DFFB5D /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
 		44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 		44A246801EAF3A8500DFFB5D /* Ex10Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Main.m; sourceTree = "<group>"; };
+		44A246821EAFDC7400DFFB5D /* BaseExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseExercise.h; sourceTree = "<group>"; };
+		44A246831EAFDC7400DFFB5D /* BaseExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseExercise.m; sourceTree = "<group>"; };
 		44E950931EAC072C002F7AAA /* Ex4Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex4Main.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
@@ -377,6 +380,8 @@
 		44F3DCB11EA80B7F00903A08 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				44A246821EAFDC7400DFFB5D /* BaseExercise.h */,
+				44A246831EAFDC7400DFFB5D /* BaseExercise.m */,
 				44F3DCA71EA7FB4600903A08 /* Exercise1 */,
 				44F3DCB21EA80B9300903A08 /* Exercise2 */,
 				44F3DCBB1EA955F700903A08 /* Exercise3 */,
@@ -510,6 +515,7 @@
 				44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */,
 				44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
+				44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44E950941EAC072C002F7AAA /* Ex4Main.m in Sources */,
 				442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */,
