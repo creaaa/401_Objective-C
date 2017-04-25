@@ -3,6 +3,20 @@
 
 @implementation InputCollector
 
+
+-(instancetype) init {
+    
+    self = [super init];
+    
+    if(self) {
+        _pastCommandAry = [[NSMutableArray alloc] init];
+    }
+    
+    return self;
+    
+}
+
+
 - (NSString *) inputForPrompt: (NSString *) promptString {
     
     printf("%s\n", [promptString UTF8String]);
