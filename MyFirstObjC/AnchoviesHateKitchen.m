@@ -27,7 +27,7 @@
 
 // ピザが作られた直後に呼ばれる。
 - (void)kitchenDidMakePizza: (Pizza*) pizza {
-    // do nothing
+    [_deliveryService deliverPizza:pizza];
 }
 
 @end

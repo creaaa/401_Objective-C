@@ -3,4 +3,10 @@
 
 @implementation DeliveryCar
 
+
+- (void) deliverPizza:(Pizza *) pizza {
+    
+}
+
+
 @end

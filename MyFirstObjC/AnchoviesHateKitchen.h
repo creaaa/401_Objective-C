@@ -1,8 +1,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Kitchen.h"
+#import "DeliveryService.h"
 
 @interface AnchoviesHateKitchen : NSObject<KitchenDelegate>
+
+@property DeliveryService* deliveryService;
+
 
 - (BOOL)kitchen: (Kitchen *) kitchen shouldMakePizzaOfSize: (PizzaSize) size andToppings: (NSArray*) toppings;
 // trueなら、オーダーのサイズにかかわらず、必ずLargeサイズになる

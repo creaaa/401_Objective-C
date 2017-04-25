@@ -14,7 +14,10 @@
 
 // ピザが作られた直後に呼ばれる。
 - (void)kitchenDidMakePizza: (Pizza*) pizza {
+    
     NSLog(@"Coming right up♪");
+    [_deliveryService deliverPizza:pizza];
+    
 }
 
 @end
