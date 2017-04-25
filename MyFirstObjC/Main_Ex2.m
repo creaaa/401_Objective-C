@@ -18,9 +18,7 @@
         float result = [myBox1 howManyTimes:myBox2];
 
         NSLog(@"1st box is %.1f times bigger than 2nd box", result);
-        
     }
-    
 }
 
 @end
