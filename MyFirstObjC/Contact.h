@@ -3,6 +3,7 @@
 
 @interface Contact : NSObject
 
+@property int       id;
 @property NSString* name;
 @property NSString* email;
 
