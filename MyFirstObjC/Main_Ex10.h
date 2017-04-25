@@ -1,13 +1,15 @@
-//
-//  Main_Ex10.h
-//  MyFirstObjC
-//
-//  Created by mas.t on 2017/04/25.
-//  Copyright © 2017年 masa. All rights reserved.
-//
 
 #import "BaseExercise.h"
+#import "PaymentGateway.h"
+#import "PaypalPaymentService.h"
+#import "StripePaymentService.h"
+#import "AmazonPaymentService.h"
+#import "ApplePaymentService.h"
+
+#import "Ex10Helper.h"
 
 @interface Main_Ex10 : BaseExercise
+
+- (void) execute;
 
 @end

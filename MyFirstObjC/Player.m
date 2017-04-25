@@ -46,7 +46,7 @@
                  if (pastSquare < _currentSquare) {
                     printf("Stairway to heaven!\n");
                  } else {
-                    printf("down by ssnake's curse...\n");
+                    printf("down by snake's curse...\n");
                  }
                  
                  printf("Moved from %d to %d\n", pastSquare, _currentSquare);
@@ -61,9 +61,9 @@
     
     // judge it's game over
     if (_currentSquare >= 100) {
+        printf("Congrats! Reached to the goal! Thanks for playing.\n");
         _gameOver = YES;
     }
-    
     
 }
 

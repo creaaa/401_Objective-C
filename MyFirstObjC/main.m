@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
 
             command = [[prompter inputForPrompt:@"Input Assignment No: "] intValue];
             
-            if (command <= 0 || command >= classNameAry.count) {
+            if (command <= 0 || command > classNameAry.count) {
                 printf("Invalid number. Try again...\n");
                 continue;
             }

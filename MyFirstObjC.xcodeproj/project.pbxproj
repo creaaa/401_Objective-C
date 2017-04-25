@@ -25,7 +25,6 @@
 		442D4E4F1EADC444002B4D10 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4E1EADC444002B4D10 /* Cook.m */; };
 		442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E511EADC89D002B4D10 /* Ex9Main.m */; };
 		442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E551EADCBBB002B4D10 /* NSString+NSString.m */; };
-		442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E571EADDFF9002B4D10 /* ex13Main.m */; };
 		442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */; };
 		442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */; };
 		442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E601EADF14D002B4D10 /* DeliveryService.m */; };
@@ -33,16 +32,13 @@
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44A246611EAE66AD00DFFB5D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246601EAE66AD00DFFB5D /* Player.m */; };
-		44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246641EAE7A2C00DFFB5D /* Ex14Main.m */; };
 		44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246671EAE7AE100DFFB5D /* PlayerManager.m */; };
-		44A2466A1EAE9B0500DFFB5D /* Ex15Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246691EAE9B0500DFFB5D /* Ex15Main.m */; };
 		44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */; };
 		44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246721EAF2B4D00DFFB5D /* PaypalPaymentService.m */; };
 		44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */; };
 		44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246781EAF2B6800DFFB5D /* AmazonPaymentService.m */; };
 		44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */; };
 		44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */; };
-		44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246801EAF3A8500DFFB5D /* Ex10Main.m */; };
 		44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246831EAFDC7400DFFB5D /* BaseExercise.m */; };
 		44A246871EAFE71300DFFB5D /* Main_Ex2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246861EAFE71300DFFB5D /* Main_Ex2.m */; };
 		44A2468A1EAFEDD800DFFB5D /* Main_Ex1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246891EAFEDD800DFFB5D /* Main_Ex1.m */; };
@@ -55,6 +51,10 @@
 		44A2469F1EAFF92700DFFB5D /* Main_Ex10.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2469E1EAFF92700DFFB5D /* Main_Ex10.m */; };
 		44A246A21EAFF93D00DFFB5D /* Main_Ex11.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246A11EAFF93D00DFFB5D /* Main_Ex11.m */; };
 		44A246A51EAFF94500DFFB5D /* Main_Ex12.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246A41EAFF94500DFFB5D /* Main_Ex12.m */; };
+		44A246A81EAFFCDD00DFFB5D /* Main_Ex9.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246A71EAFFCDD00DFFB5D /* Main_Ex9.m */; };
+		44A246AB1EAFFEEF00DFFB5D /* Main_Ex13.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246AA1EAFFEEF00DFFB5D /* Main_Ex13.m */; };
+		44A246AE1EAFFF5600DFFB5D /* Main_Ex14.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246AD1EAFFF5600DFFB5D /* Main_Ex14.m */; };
+		44A246B11EB000CA00DFFB5D /* Main_Ex15.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246B01EB000CA00DFFB5D /* Main_Ex15.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
 		44E9509D1EAC3069002F7AAA /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509C1EAC3069002F7AAA /* Dice.m */; };
@@ -116,7 +116,6 @@
 		442D4E511EADC89D002B4D10 /* Ex9Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex9Main.m; sourceTree = "<group>"; };
 		442D4E541EADCBBB002B4D10 /* NSString+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString.h"; sourceTree = "<group>"; };
 		442D4E551EADCBBB002B4D10 /* NSString+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString.m"; sourceTree = "<group>"; };
-		442D4E571EADDFF9002B4D10 /* ex13Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ex13Main.m; sourceTree = "<group>"; };
 		442D4E591EADE834002B4D10 /* AnchoviesHateKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchoviesHateKitchen.h; sourceTree = "<group>"; };
 		442D4E5A1EADE834002B4D10 /* AnchoviesHateKitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchoviesHateKitchen.m; sourceTree = "<group>"; };
 		442D4E5C1EADE8D6002B4D10 /* VeryGenerousKitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeryGenerousKitchen.h; sourceTree = "<group>"; };
@@ -130,10 +129,8 @@
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
 		44A2465F1EAE66AD00DFFB5D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		44A246601EAE66AD00DFFB5D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		44A246641EAE7A2C00DFFB5D /* Ex14Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex14Main.m; sourceTree = "<group>"; };
 		44A246661EAE7AE100DFFB5D /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
 		44A246671EAE7AE100DFFB5D /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
-		44A246691EAE9B0500DFFB5D /* Ex15Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex15Main.m; sourceTree = "<group>"; };
 		44A2466E1EAF29BE00DFFB5D /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
 		44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
 		44A246711EAF2B4D00DFFB5D /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
@@ -146,7 +143,6 @@
 		44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Helper.m; sourceTree = "<group>"; };
 		44A2467D1EAF37BB00DFFB5D /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
 		44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
-		44A246801EAF3A8500DFFB5D /* Ex10Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex10Main.m; sourceTree = "<group>"; };
 		44A246821EAFDC7400DFFB5D /* BaseExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseExercise.h; sourceTree = "<group>"; };
 		44A246831EAFDC7400DFFB5D /* BaseExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseExercise.m; sourceTree = "<group>"; };
 		44A246851EAFE71300DFFB5D /* Main_Ex2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex2.h; sourceTree = "<group>"; };
@@ -171,6 +167,14 @@
 		44A246A11EAFF93D00DFFB5D /* Main_Ex11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex11.m; sourceTree = "<group>"; };
 		44A246A31EAFF94500DFFB5D /* Main_Ex12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex12.h; sourceTree = "<group>"; };
 		44A246A41EAFF94500DFFB5D /* Main_Ex12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex12.m; sourceTree = "<group>"; };
+		44A246A61EAFFCDD00DFFB5D /* Main_Ex9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex9.h; sourceTree = "<group>"; };
+		44A246A71EAFFCDD00DFFB5D /* Main_Ex9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex9.m; sourceTree = "<group>"; };
+		44A246A91EAFFEEF00DFFB5D /* Main_Ex13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex13.h; sourceTree = "<group>"; };
+		44A246AA1EAFFEEF00DFFB5D /* Main_Ex13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex13.m; sourceTree = "<group>"; };
+		44A246AC1EAFFF5600DFFB5D /* Main_Ex14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex14.h; sourceTree = "<group>"; };
+		44A246AD1EAFFF5600DFFB5D /* Main_Ex14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex14.m; sourceTree = "<group>"; };
+		44A246AF1EB000CA00DFFB5D /* Main_Ex15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex15.h; sourceTree = "<group>"; };
+		44A246B01EB000CA00DFFB5D /* Main_Ex15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex15.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 		44E950991EAC2996002F7AAA /* Ex5Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex5Main.m; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 				442D4E4D1EADC444002B4D10 /* Cook.h */,
 				442D4E4E1EADC444002B4D10 /* Cook.m */,
 				442D4E511EADC89D002B4D10 /* Ex9Main.m */,
+				44A246A61EAFFCDD00DFFB5D /* Main_Ex9.h */,
+				44A246A71EAFFCDD00DFFB5D /* Main_Ex9.m */,
 			);
 			name = Exercise9;
 			sourceTree = "<group>";
@@ -308,7 +314,6 @@
 				44A2467E1EAF37BB00DFFB5D /* ApplePaymentService.m */,
 				44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */,
 				44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */,
-				44A246801EAF3A8500DFFB5D /* Ex10Main.m */,
 				44A2469D1EAFF92700DFFB5D /* Main_Ex10.h */,
 				44A2469E1EAFF92700DFFB5D /* Main_Ex10.m */,
 			);
@@ -320,7 +325,8 @@
 			children = (
 				442D4E541EADCBBB002B4D10 /* NSString+NSString.h */,
 				442D4E551EADCBBB002B4D10 /* NSString+NSString.m */,
-				442D4E571EADDFF9002B4D10 /* ex13Main.m */,
+				44A246A91EAFFEEF00DFFB5D /* Main_Ex13.h */,
+				44A246AA1EAFFEEF00DFFB5D /* Main_Ex13.m */,
 			);
 			name = Exercise13;
 			sourceTree = "<group>";
@@ -358,10 +364,21 @@
 				44A246601EAE66AD00DFFB5D /* Player.m */,
 				44A246661EAE7AE100DFFB5D /* PlayerManager.h */,
 				44A246671EAE7AE100DFFB5D /* PlayerManager.m */,
-				44A246641EAE7A2C00DFFB5D /* Ex14Main.m */,
-				44A246691EAE9B0500DFFB5D /* Ex15Main.m */,
+				44A246AC1EAFFF5600DFFB5D /* Main_Ex14.h */,
+				44A246AD1EAFFF5600DFFB5D /* Main_Ex14.m */,
+				44A246AF1EB000CA00DFFB5D /* Main_Ex15.h */,
+				44A246B01EB000CA00DFFB5D /* Main_Ex15.m */,
 			);
 			name = Exercise14.15;
+			sourceTree = "<group>";
+		};
+		44A246B21EB001D000DFFB5D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				44A246821EAFDC7400DFFB5D /* BaseExercise.h */,
+				44A246831EAFDC7400DFFB5D /* BaseExercise.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		44E950981EAC25CE002F7AAA /* Exercise6 */ = {
@@ -409,8 +426,7 @@
 		44F3DCB11EA80B7F00903A08 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				44A246821EAFDC7400DFFB5D /* BaseExercise.h */,
-				44A246831EAFDC7400DFFB5D /* BaseExercise.m */,
+				44A246B21EB001D000DFFB5D /* Base */,
 				44F3DCA71EA7FB4600903A08 /* Exercise1 */,
 				44F3DCB21EA80B9300903A08 /* Exercise2 */,
 				44F3DCBB1EA955F700903A08 /* Exercise3 */,
@@ -525,10 +541,9 @@
 				4494CB7A1EA6ACE300E40288 /* main.m in Sources */,
 				442D4E2F1EAD51A2002B4D10 /* Patient.m in Sources */,
 				44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */,
+				44A246AB1EAFFEEF00DFFB5D /* Main_Ex13.m in Sources */,
 				442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */,
 				44F3DCC11EA9764200903A08 /* InputHandler.m in Sources */,
-				44A2466A1EAE9B0500DFFB5D /* Ex15Main.m in Sources */,
-				442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */,
 				44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */,
 				442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */,
 				44A246931EAFF4F700DFFB5D /* Main_Ex5.m in Sources */,
@@ -540,25 +555,26 @@
 				44A246A21EAFF93D00DFFB5D /* Main_Ex11.m in Sources */,
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
 				44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */,
-				44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
 				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
 				44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */,
-				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
 				44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */,
 				44A246871EAFE71300DFFB5D /* Main_Ex2.m in Sources */,
+				44A246AE1EAFFF5600DFFB5D /* Main_Ex14.m in Sources */,
 				44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
 				44A246991EAFF63000DFFB5D /* Main_Ex7.m in Sources */,
 				44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */,
+				44A246A81EAFFCDD00DFFB5D /* Main_Ex9.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
 				44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */,
 				44A246901EAFF44B00DFFB5D /* Main_Ex4.m in Sources */,
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
+				44A246B11EB000CA00DFFB5D /* Main_Ex15.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
