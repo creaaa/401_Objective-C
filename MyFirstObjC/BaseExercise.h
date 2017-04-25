@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+@class BaseExercise;
 
 @protocol BaseProtocol <NSObject>
 
@@ -10,7 +10,7 @@
 @end
 
 
-@interface BaseExercise : NSObject
+@interface BaseExercise : NSObject<BaseProtocol>
 
 - (void) execute;
 
