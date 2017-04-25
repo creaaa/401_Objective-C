@@ -19,10 +19,8 @@
 		442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E311EAD51AB002B4D10 /* Prescription.m */; };
 		442D4E351EAD51BC002B4D10 /* PrescriptionDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */; };
 		442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E381EAD78FF002B4D10 /* Kitchen.m */; };
-		442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3A1EAD7982002B4D10 /* Ex7Main.m */; };
 		442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E3F1EAD7D07002B4D10 /* Pizza.m */; };
 		442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E421EAD7FA7002B4D10 /* PizzaSize.m */; };
-		442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E471EADC3C5002B4D10 /* Ex8Main.m */; };
 		442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */; };
 		442D4E4F1EADC444002B4D10 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E4E1EADC444002B4D10 /* Cook.m */; };
 		442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E511EADC89D002B4D10 /* Ex9Main.m */; };
@@ -35,11 +33,9 @@
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44A246611EAE66AD00DFFB5D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246601EAE66AD00DFFB5D /* Player.m */; };
-		44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246621EAE685800DFFB5D /* Ex11Main.m */; };
 		44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246641EAE7A2C00DFFB5D /* Ex14Main.m */; };
 		44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246671EAE7AE100DFFB5D /* PlayerManager.m */; };
 		44A2466A1EAE9B0500DFFB5D /* Ex15Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246691EAE9B0500DFFB5D /* Ex15Main.m */; };
-		44A2466C1EAF245C00DFFB5D /* Ex12Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2466B1EAF245C00DFFB5D /* Ex12Main.m */; };
 		44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */; };
 		44A246731EAF2B4D00DFFB5D /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246721EAF2B4D00DFFB5D /* PaypalPaymentService.m */; };
 		44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246751EAF2B5E00DFFB5D /* StripePaymentService.m */; };
@@ -52,6 +48,13 @@
 		44A2468A1EAFEDD800DFFB5D /* Main_Ex1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246891EAFEDD800DFFB5D /* Main_Ex1.m */; };
 		44A2468D1EAFF10E00DFFB5D /* Main_Ex3.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2468C1EAFF10E00DFFB5D /* Main_Ex3.m */; };
 		44A246901EAFF44B00DFFB5D /* Main_Ex4.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2468F1EAFF44B00DFFB5D /* Main_Ex4.m */; };
+		44A246931EAFF4F700DFFB5D /* Main_Ex5.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246921EAFF4F700DFFB5D /* Main_Ex5.m */; };
+		44A246961EAFF56500DFFB5D /* Main_Ex6.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246951EAFF56500DFFB5D /* Main_Ex6.m */; };
+		44A246991EAFF63000DFFB5D /* Main_Ex7.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246981EAFF63000DFFB5D /* Main_Ex7.m */; };
+		44A2469C1EAFF91600DFFB5D /* Main_Ex8.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2469B1EAFF91600DFFB5D /* Main_Ex8.m */; };
+		44A2469F1EAFF92700DFFB5D /* Main_Ex10.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2469E1EAFF92700DFFB5D /* Main_Ex10.m */; };
+		44A246A21EAFF93D00DFFB5D /* Main_Ex11.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246A11EAFF93D00DFFB5D /* Main_Ex11.m */; };
+		44A246A51EAFF94500DFFB5D /* Main_Ex12.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246A41EAFF94500DFFB5D /* Main_Ex12.m */; };
 		44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950961EAC17E8002F7AAA /* QuestionManager.m */; };
 		44E9509A1EAC2996002F7AAA /* Ex5Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E950991EAC2996002F7AAA /* Ex5Main.m */; };
 		44E9509D1EAC3069002F7AAA /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9509C1EAC3069002F7AAA /* Dice.m */; };
@@ -100,14 +103,12 @@
 		442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionDatabase.m; sourceTree = "<group>"; };
 		442D4E371EAD78FF002B4D10 /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
 		442D4E381EAD78FF002B4D10 /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
-		442D4E3A1EAD7982002B4D10 /* Ex7Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex7Main.m; sourceTree = "<group>"; };
 		442D4E3E1EAD7D07002B4D10 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		442D4E3F1EAD7D07002B4D10 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 		442D4E411EAD7FA7002B4D10 /* PizzaSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaSize.h; sourceTree = "<group>"; };
 		442D4E421EAD7FA7002B4D10 /* PizzaSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaSize.m; sourceTree = "<group>"; };
 		442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EnumExtensions.h"; sourceTree = "<group>"; };
 		442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EnumExtensions.m"; sourceTree = "<group>"; };
-		442D4E471EADC3C5002B4D10 /* Ex8Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex8Main.m; sourceTree = "<group>"; };
 		442D4E491EADC3ED002B4D10 /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
 		442D4E4A1EADC3ED002B4D10 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
 		442D4E4D1EADC444002B4D10 /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
@@ -129,12 +130,10 @@
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
 		44A2465F1EAE66AD00DFFB5D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		44A246601EAE66AD00DFFB5D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		44A246621EAE685800DFFB5D /* Ex11Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex11Main.m; sourceTree = "<group>"; };
 		44A246641EAE7A2C00DFFB5D /* Ex14Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex14Main.m; sourceTree = "<group>"; };
 		44A246661EAE7AE100DFFB5D /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
 		44A246671EAE7AE100DFFB5D /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		44A246691EAE9B0500DFFB5D /* Ex15Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex15Main.m; sourceTree = "<group>"; };
-		44A2466B1EAF245C00DFFB5D /* Ex12Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex12Main.m; sourceTree = "<group>"; };
 		44A2466E1EAF29BE00DFFB5D /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
 		44A2466F1EAF29BE00DFFB5D /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
 		44A246711EAF2B4D00DFFB5D /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
@@ -158,6 +157,20 @@
 		44A2468C1EAFF10E00DFFB5D /* Main_Ex3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex3.m; sourceTree = "<group>"; };
 		44A2468E1EAFF44B00DFFB5D /* Main_Ex4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex4.h; sourceTree = "<group>"; };
 		44A2468F1EAFF44B00DFFB5D /* Main_Ex4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex4.m; sourceTree = "<group>"; };
+		44A246911EAFF4F700DFFB5D /* Main_Ex5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex5.h; sourceTree = "<group>"; };
+		44A246921EAFF4F700DFFB5D /* Main_Ex5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex5.m; sourceTree = "<group>"; };
+		44A246941EAFF56500DFFB5D /* Main_Ex6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex6.h; sourceTree = "<group>"; };
+		44A246951EAFF56500DFFB5D /* Main_Ex6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex6.m; sourceTree = "<group>"; };
+		44A246971EAFF63000DFFB5D /* Main_Ex7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex7.h; sourceTree = "<group>"; };
+		44A246981EAFF63000DFFB5D /* Main_Ex7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex7.m; sourceTree = "<group>"; };
+		44A2469A1EAFF91600DFFB5D /* Main_Ex8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex8.h; sourceTree = "<group>"; };
+		44A2469B1EAFF91600DFFB5D /* Main_Ex8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex8.m; sourceTree = "<group>"; };
+		44A2469D1EAFF92700DFFB5D /* Main_Ex10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex10.h; sourceTree = "<group>"; };
+		44A2469E1EAFF92700DFFB5D /* Main_Ex10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex10.m; sourceTree = "<group>"; };
+		44A246A01EAFF93D00DFFB5D /* Main_Ex11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex11.h; sourceTree = "<group>"; };
+		44A246A11EAFF93D00DFFB5D /* Main_Ex11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex11.m; sourceTree = "<group>"; };
+		44A246A31EAFF94500DFFB5D /* Main_Ex12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Ex12.h; sourceTree = "<group>"; };
+		44A246A41EAFF94500DFFB5D /* Main_Ex12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Ex12.m; sourceTree = "<group>"; };
 		44E950951EAC17E8002F7AAA /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
 		44E950961EAC17E8002F7AAA /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 		44E950991EAC2996002F7AAA /* Ex5Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex5Main.m; sourceTree = "<group>"; };
@@ -216,6 +229,8 @@
 				44E950951EAC17E8002F7AAA /* QuestionManager.h */,
 				44E950961EAC17E8002F7AAA /* QuestionManager.m */,
 				44E950991EAC2996002F7AAA /* Ex5Main.m */,
+				44A246911EAFF4F700DFFB5D /* Main_Ex5.h */,
+				44A246921EAFF4F700DFFB5D /* Main_Ex5.m */,
 			);
 			name = Exercise5;
 			sourceTree = "<group>";
@@ -231,7 +246,8 @@
 				442D4E311EAD51AB002B4D10 /* Prescription.m */,
 				442D4E331EAD51BC002B4D10 /* PrescriptionDatabase.h */,
 				442D4E341EAD51BC002B4D10 /* PrescriptionDatabase.m */,
-				442D4E3A1EAD7982002B4D10 /* Ex7Main.m */,
+				44A246971EAFF63000DFFB5D /* Main_Ex7.h */,
+				44A246981EAFF63000DFFB5D /* Main_Ex7.m */,
 			);
 			name = Exercise7;
 			sourceTree = "<group>";
@@ -255,9 +271,12 @@
 				442D4E421EAD7FA7002B4D10 /* PizzaSize.m */,
 				442D4E441EADB471002B4D10 /* NSArray+EnumExtensions.h */,
 				442D4E451EADB4C3002B4D10 /* NSArray+EnumExtensions.m */,
-				442D4E471EADC3C5002B4D10 /* Ex8Main.m */,
-				44A246621EAE685800DFFB5D /* Ex11Main.m */,
-				44A2466B1EAF245C00DFFB5D /* Ex12Main.m */,
+				44A2469A1EAFF91600DFFB5D /* Main_Ex8.h */,
+				44A2469B1EAFF91600DFFB5D /* Main_Ex8.m */,
+				44A246A01EAFF93D00DFFB5D /* Main_Ex11.h */,
+				44A246A11EAFF93D00DFFB5D /* Main_Ex11.m */,
+				44A246A31EAFF94500DFFB5D /* Main_Ex12.h */,
+				44A246A41EAFF94500DFFB5D /* Main_Ex12.m */,
 			);
 			name = Exercise8.11.12;
 			sourceTree = "<group>";
@@ -290,6 +309,8 @@
 				44A2467A1EAF2FDC00DFFB5D /* Ex10Helper.h */,
 				44A2467B1EAF2FDC00DFFB5D /* Ex10Helper.m */,
 				44A246801EAF3A8500DFFB5D /* Ex10Main.m */,
+				44A2469D1EAFF92700DFFB5D /* Main_Ex10.h */,
+				44A2469E1EAFF92700DFFB5D /* Main_Ex10.m */,
 			);
 			name = Exercise10;
 			sourceTree = "<group>";
@@ -351,6 +372,8 @@
 				44E9509E1EAC3089002F7AAA /* GameController.h */,
 				44E9509F1EAC3089002F7AAA /* GameController.m */,
 				442D4E271EAD4798002B4D10 /* Ex6Main.m */,
+				44A246941EAFF56500DFFB5D /* Main_Ex6.h */,
+				44A246951EAFF56500DFFB5D /* Main_Ex6.m */,
 			);
 			name = Exercise6;
 			sourceTree = "<group>";
@@ -489,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F3DCC41EA9781200903A08 /* ScoreKeeper.m in Sources */,
+				44A2469F1EAFF92700DFFB5D /* Main_Ex10.m in Sources */,
 				4494CB811EA6B76D00E40288 /* _0418.m in Sources */,
 				44F3DCBE1EA96DD400903A08 /* AdditionQuestion.m in Sources */,
 				44F3DCAF1EA8000F00903A08 /* _0419.m in Sources */,
@@ -507,9 +531,13 @@
 				442D4E581EADDFF9002B4D10 /* ex13Main.m in Sources */,
 				44A246761EAF2B5E00DFFB5D /* StripePaymentService.m in Sources */,
 				442D4E5B1EADE834002B4D10 /* AnchoviesHateKitchen.m in Sources */,
+				44A246931EAFF4F700DFFB5D /* Main_Ex5.m in Sources */,
+				44A246961EAFF56500DFFB5D /* Main_Ex6.m in Sources */,
 				44F3DCB51EA80CA500903A08 /* Box.m in Sources */,
+				44A246A51EAFF94500DFFB5D /* Main_Ex12.m in Sources */,
 				442D4E281EAD4798002B4D10 /* Ex6Main.m in Sources */,
 				4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */,
+				44A246A21EAFF93D00DFFB5D /* Main_Ex11.m in Sources */,
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
 				44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */,
 				44A246811EAF3A8500DFFB5D /* Ex10Main.m in Sources */,
@@ -522,12 +550,11 @@
 				44A246651EAE7A2C00DFFB5D /* Ex14Main.m in Sources */,
 				44A246701EAF29BE00DFFB5D /* PaymentGateway.m in Sources */,
 				44A246871EAFE71300DFFB5D /* Main_Ex2.m in Sources */,
-				44A246631EAE685800DFFB5D /* Ex11Main.m in Sources */,
 				44A2467F1EAF37BB00DFFB5D /* ApplePaymentService.m in Sources */,
 				44F3DCAC1EA7FC7700903A08 /* Person.m in Sources */,
+				44A246991EAFF63000DFFB5D /* Main_Ex7.m in Sources */,
 				44A246841EAFDC7400DFFB5D /* BaseExercise.m in Sources */,
 				44E950A01EAC3089002F7AAA /* GameController.m in Sources */,
-				442D4E3B1EAD7982002B4D10 /* Ex7Main.m in Sources */,
 				44A246791EAF2B6800DFFB5D /* AmazonPaymentService.m in Sources */,
 				44A246901EAFF44B00DFFB5D /* Main_Ex4.m in Sources */,
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
@@ -535,12 +562,11 @@
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
-				44A2466C1EAF245C00DFFB5D /* Ex12Main.m in Sources */,
 				442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */,
 				442D4E521EADC89D002B4D10 /* Ex9Main.m in Sources */,
 				442D4E561EADCBBB002B4D10 /* NSString+NSString.m in Sources */,
 				442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */,
-				442D4E481EADC3C5002B4D10 /* Ex8Main.m in Sources */,
+				44A2469C1EAFF91600DFFB5D /* Main_Ex8.m in Sources */,
 				44A246611EAE66AD00DFFB5D /* Player.m in Sources */,
 				442D4E321EAD51AB002B4D10 /* Prescription.m in Sources */,
 			);

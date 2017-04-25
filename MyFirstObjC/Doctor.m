@@ -53,8 +53,6 @@
         
         if (storedPatient.id == patient.id) {
             
-            printf("Hit!\n");
-            
             Prescription* pres = [[Prescription alloc] initWithName: storedPatient.diseaseName withPatient: storedPatient];
             
             // add prescription to DB before return

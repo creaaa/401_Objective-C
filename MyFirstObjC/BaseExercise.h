@@ -1,5 +1,7 @@
 
 #import <Foundation/Foundation.h>
+#import "InputCollector.h"  // from Ex4
+
 
 @class BaseExercise;
 
