@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         
         while (true) {
 
-            command = [[prompter inputForPrompt:@"Input Assignment No: "] intValue];
+            command = [[prompter inputForPrompt:@"Input Assignment No: (1-15)"] intValue];
             
             if (command <= 0 || command > classNameAry.count) {
                 printf("Invalid number. Try again...\n");
