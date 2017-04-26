@@ -40,7 +40,7 @@
 //
 //            [questionManager addQuestion:question];
 //            NSString* s = [questionManager timeOutput];
-//            
+//
 //            printf("%s\n", [s UTF8String]);
 //            
 //        }
@@ -49,35 +49,43 @@
         
         
         
-        Boolean gameOn = YES;
+
+        
         printf("MATHS!\n");
+
         
-        NSString* right = @"Right!";
-        NSString* wrong = @"Wrong!";
-        
-        ScoreKeeper2*  scoreKeeper  = [ScoreKeeper2 new];
-        
-        // InputHandler2* inputHandler = [InputHandler2 new];
-        
-//        InputCollector* prompter;
-        int             command;
-        
-        
+        ScoreKeeper* scoreKeeper  = [ScoreKeeper new];
         
         QuestionManager* questionManager = [QuestionManager new];
-        // QuestionFactory* questionFactory = [QuestionFactory new];
+        InputCollector*  prompter        = [InputCollector new];
+        NSString*        command;
+
         
-        
+        Boolean gameOn  = YES;
+
         while (gameOn) {
-            // do stg
-            SubtractionQuestion* sub_q = [SubtractionQuestion new];
-            printf("%ld, %ld\n", sub_q.leftValue, sub_q.rightValue);  // スーパークラスのプロパティが取得できる
             
-            InputCollector* prompter;
-            command = [[prompter inputForPrompt: @"Boke??"] intValue];
+            //Question* q = [SubtractionQuestion new];
+            Question* q = [DivisionQuestion new];
             
-            break;
+            // printf("%ld, %ld\n", sub_q.leftValue, sub_q.rightValue);  // スーパークラスのプロパティが取得できる
             
+            command = [prompter inputForPrompt: q.question];
+            
+            
+            // ユーザー入力後の流れ
+            if ([command intValue] == q.answer) {
+                scoreKeeper.rightAnswer += 1;
+                printf("Right!\n");
+            } else {
+                scoreKeeper.wrongAnswer += 1;
+                printf("Wrong!\n");
+            }
+
+            [questionManager appendQuestion: q];
+            [scoreKeeper printResult];
+            printf("%s\n", [[questionManager timeOutput] UTF8String]);
+
         }
     }
 }

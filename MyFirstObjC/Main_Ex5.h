@@ -1,11 +1,9 @@
 
 #import "BaseExercise.h"
 #import "AdditionQuestion2.h"
-#import "InputHandler2.h"
 #import "QuestionManager.h"
-#import "ScoreKeeper2.h"
+#import "ScoreKeeper.h"
 
-//
 #import "SubtractionQuestion.h"
 #import "MultiplicationQuestion.h"
 #import "DivisionQuestion.h"

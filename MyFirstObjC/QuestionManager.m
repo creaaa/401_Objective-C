@@ -5,7 +5,7 @@
 
 @implementation QuestionManager
 
-- (instancetype)init{
+- (instancetype) init {
     
     self = [super init];
     if(self) {
@@ -16,20 +16,16 @@
 }
 
 
--(void)addQuestion:(AdditionQuestion2 *) newQuestion {
-    
-    [_questions addObject:newQuestion];
-    
+- (void) appendQuestion: (Question*) newQuestion {
+    [_questions addObject: newQuestion];
 }
 
 
 - (NSString*) timeOutput {
     
-    // not NSTimeInterval* because this is actually double type
+    Question* lastQuestion      = _questions.lastObject;
     
-    AdditionQuestion2* lastQuestion = _questions.lastObject;
-    
-    NSTimeInterval timeInterval = [lastQuestion answerTime];
+    NSTimeInterval timeInterval = [lastQuestion timeToAnswer];
     
     // add totalSum
     _totalSum += timeInterval;

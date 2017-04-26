@@ -14,15 +14,8 @@
 
 
 - (void)generateQuestion {
-    
-    // set super.question here
-    // set super.answer here
-    
-    //printf("%ld - %ld?\n", super.leftValue, super.rightValue);
-    
-    super.question = [NSString stringWithFormat:@"%ld - %ld?\n", super.leftValue, super.rightValue];
+    super.question = [NSString stringWithFormat:@"%ld - %ld?", super.leftValue, super.rightValue];
     super.answer = super.leftValue - super.rightValue;
-    
 }
 
 

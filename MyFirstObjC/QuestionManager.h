@@ -1,6 +1,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AdditionQuestion2.h"
+#import "Question.h"
 
 
 @interface QuestionManager : NSObject
@@ -10,7 +11,7 @@
 
 - (instancetype)init;
 
--(void)addQuestion:(AdditionQuestion2 *) newQuestion;
+- (void)      appendQuestion: (Question*) newQuestion;
 - (NSString*) timeOutput;
 
 @end

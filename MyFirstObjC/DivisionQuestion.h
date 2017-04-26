@@ -3,4 +3,6 @@
 
 @interface DivisionQuestion : Question
 
+- (instancetype)init;
+
 @end
