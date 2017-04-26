@@ -3,7 +3,6 @@
 
 @implementation MultiplicationQuestion
 
-
 - (instancetype)init {
     
     if (self = [super init]) {

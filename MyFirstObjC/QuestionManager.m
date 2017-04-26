@@ -1,6 +1,5 @@
 
 #import "QuestionManager.h"
-#import "AdditionQuestion2.h"
 
 
 @implementation QuestionManager

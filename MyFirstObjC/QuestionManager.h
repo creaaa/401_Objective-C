@@ -1,8 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "AdditionQuestion2.h"
 #import "Question.h"
-
 
 @interface QuestionManager : NSObject
 

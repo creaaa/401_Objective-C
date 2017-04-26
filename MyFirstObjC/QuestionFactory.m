@@ -5,11 +5,12 @@
 
 - (Question*) generateRandomQuestion {
     
-    NSArray* questionSubclassNames = @[@"SubtractionQuestion",
+    NSArray* questionSubclassNames = @[@"AdditionQuestion2",
+                                       @"SubtractionQuestion",
                                        @"MultiplicationQuestion",
                                        @"DivisionQuestion"];
     
-    NSString* className = questionSubclassNames[arc4random_uniform(3)];
+    NSString* className = questionSubclassNames[arc4random_uniform(4)];
     
     return [NSClassFromString(className) new];
 

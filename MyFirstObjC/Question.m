@@ -3,7 +3,6 @@
 
 @implementation Question
 
-
 - (NSInteger) answer {
     _endTime = [NSDate date];
     return _answer;
