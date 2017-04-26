@@ -53,7 +53,7 @@
         
         printf("MATHS!\n");
 
-        
+        QuestionFactory* factory  = [QuestionFactory new];
         ScoreKeeper* scoreKeeper  = [ScoreKeeper new];
         
         QuestionManager* questionManager = [QuestionManager new];
@@ -65,15 +65,14 @@
 
         while (gameOn) {
             
-            //Question* q = [SubtractionQuestion new];
-            Question* q = [DivisionQuestion new];
-            
+            Question* q = [factory generateRandomQuestion];
             // printf("%ld, %ld\n", sub_q.leftValue, sub_q.rightValue);  // スーパークラスのプロパティが取得できる
+            
             
             command = [prompter inputForPrompt: q.question];
             
             
-            // ユーザー入力後の流れ
+            // judge whether answer is right
             if ([command intValue] == q.answer) {
                 scoreKeeper.rightAnswer += 1;
                 printf("Right!\n");

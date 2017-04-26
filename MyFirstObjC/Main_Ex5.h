@@ -7,7 +7,7 @@
 #import "SubtractionQuestion.h"
 #import "MultiplicationQuestion.h"
 #import "DivisionQuestion.h"
-
+#import "QuestionFactory.h"
 
 @interface Main_Ex5 : BaseExercise
 

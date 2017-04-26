@@ -27,6 +27,7 @@
 		442D4E5E1EADE8D6002B4D10 /* VeryGenerousKitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E5D1EADE8D6002B4D10 /* VeryGenerousKitchen.m */; };
 		442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E601EADF14D002B4D10 /* DeliveryService.m */; };
 		442D4E641EADF169002B4D10 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D4E631EADF169002B4D10 /* DeliveryCar.m */; };
+		448CEF4B1EB0554B00741F7F /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 448CEF4A1EB0554B00741F7F /* QuestionFactory.m */; };
 		4494CB7A1EA6ACE300E40288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB791EA6ACE300E40288 /* main.m */; };
 		4494CB811EA6B76D00E40288 /* _0418.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494CB801EA6B76D00E40288 /* _0418.m */; };
 		44A246611EAE66AD00DFFB5D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A246601EAE66AD00DFFB5D /* Player.m */; };
@@ -123,6 +124,8 @@
 		442D4E601EADF14D002B4D10 /* DeliveryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
 		442D4E621EADF169002B4D10 /* DeliveryCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
 		442D4E631EADF169002B4D10 /* DeliveryCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
+		448CEF491EB0554B00741F7F /* QuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
+		448CEF4A1EB0554B00741F7F /* QuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 		4494CB761EA6ACE300E40288 /* MyFirstObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494CB791EA6ACE300E40288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494CB801EA6B76D00E40288 /* _0418.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0418.m; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 				44A246BA1EB01A1E00DFFB5D /* MultiplicationQuestion.m */,
 				44A246BC1EB01A3100DFFB5D /* DivisionQuestion.h */,
 				44A246BD1EB01A3100DFFB5D /* DivisionQuestion.m */,
+				448CEF491EB0554B00741F7F /* QuestionFactory.h */,
+				448CEF4A1EB0554B00741F7F /* QuestionFactory.m */,
 				44A246911EAFF4F700DFFB5D /* Main_Ex5.h */,
 				44A246921EAFF4F700DFFB5D /* Main_Ex5.m */,
 			);
@@ -594,6 +599,7 @@
 				442D4E431EAD7FA7002B4D10 /* PizzaSize.m in Sources */,
 				44E950971EAC17E8002F7AAA /* QuestionManager.m in Sources */,
 				44A246B11EB000CA00DFFB5D /* Main_Ex15.m in Sources */,
+				448CEF4B1EB0554B00741F7F /* QuestionFactory.m in Sources */,
 				44E9509D1EAC3069002F7AAA /* Dice.m in Sources */,
 				442D4E4B1EADC3ED002B4D10 /* FoodTruck.m in Sources */,
 				4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */,
