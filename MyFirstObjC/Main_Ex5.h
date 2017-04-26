@@ -5,6 +5,12 @@
 #import "QuestionManager.h"
 #import "ScoreKeeper2.h"
 
+//
+#import "SubtractionQuestion.h"
+#import "MultiplicationQuestion.h"
+#import "DivisionQuestion.h"
+
+
 @interface Main_Ex5 : BaseExercise
 
 - (void) execute;

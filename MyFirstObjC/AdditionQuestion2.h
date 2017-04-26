@@ -3,9 +3,8 @@
 
 @interface AdditionQuestion2 : NSObject
 
-// instead of this...
 @property int correctAnswer;
-- (NSInteger)answer;
+- (NSInteger) answer;
 
 // added in Ex5
 @property NSDate* startTime;  // 出題の開始
