@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413019D1EAAE05200E51764 /* AdditionQuestion2.m */; };
-		441301A41EAAE05200E51764 /* InputHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413019F1EAAE05200E51764 /* InputHandler2.m */; };
-		441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */ = {isa = PBXBuildFile; fileRef = 441301A21EAAE05200E51764 /* ScoreKeeper2.m */; };
 		4416A6671EAAB2A5003608ED /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6661EAAB2A5003608ED /* Contact.m */; };
 		4416A66A1EAAB2AD003608ED /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A6691EAAB2AD003608ED /* ContactList.m */; };
 		4416A66D1EAAB2D5003608ED /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416A66C1EAAB2D5003608ED /* InputCollector.m */; };
@@ -83,11 +81,7 @@
 
 /* Begin PBXFileReference section */
 		4413019D1EAAE05200E51764 /* AdditionQuestion2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion2.m; sourceTree = "<group>"; };
-		4413019E1EAAE05200E51764 /* InputHandler2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler2.h; sourceTree = "<group>"; };
-		4413019F1EAAE05200E51764 /* InputHandler2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler2.m; sourceTree = "<group>"; };
 		441301A01EAAE05200E51764 /* AdditionQuestion2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion2.h; sourceTree = "<group>"; };
-		441301A11EAAE05200E51764 /* ScoreKeeper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper2.h; sourceTree = "<group>"; };
-		441301A21EAAE05200E51764 /* ScoreKeeper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper2.m; sourceTree = "<group>"; };
 		4416A6651EAAB2A5003608ED /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		4416A6661EAAB2A5003608ED /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		4416A6681EAAB2AD003608ED /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
@@ -233,7 +227,6 @@
 		4416A6641EAAA9B8003608ED /* Exercise5 */ = {
 			isa = PBXGroup;
 			children = (
-				448CEF481EB04A5400741F7F /* no_loger_needed */,
 				44E950951EAC17E8002F7AAA /* QuestionManager.h */,
 				44E950961EAC17E8002F7AAA /* QuestionManager.m */,
 				44A246B31EB018EA00DFFB5D /* Question.h */,
@@ -343,17 +336,6 @@
 				44A246AA1EAFFEEF00DFFB5D /* Main_Ex13.m */,
 			);
 			name = Exercise13;
-			sourceTree = "<group>";
-		};
-		448CEF481EB04A5400741F7F /* no_loger_needed */ = {
-			isa = PBXGroup;
-			children = (
-				441301A11EAAE05200E51764 /* ScoreKeeper2.h */,
-				441301A21EAAE05200E51764 /* ScoreKeeper2.m */,
-				4413019E1EAAE05200E51764 /* InputHandler2.h */,
-				4413019F1EAAE05200E51764 /* InputHandler2.m */,
-			);
-			name = no_loger_needed;
 			sourceTree = "<group>";
 		};
 		4494CB6D1EA6ACE200E40288 = {
@@ -560,7 +542,6 @@
 				44A246BB1EB01A1E00DFFB5D /* MultiplicationQuestion.m in Sources */,
 				4416A6671EAAB2A5003608ED /* Contact.m in Sources */,
 				44A246681EAE7AE100DFFB5D /* PlayerManager.m in Sources */,
-				441301A41EAAE05200E51764 /* InputHandler2.m in Sources */,
 				44A2468A1EAFEDD800DFFB5D /* Main_Ex1.m in Sources */,
 				442D4E391EAD78FF002B4D10 /* Kitchen.m in Sources */,
 				44A2468D1EAFF10E00DFFB5D /* Main_Ex3.m in Sources */,
@@ -580,7 +561,6 @@
 				442D4E611EADF14D002B4D10 /* DeliveryService.m in Sources */,
 				44A2467C1EAF2FDC00DFFB5D /* Ex10Helper.m in Sources */,
 				441301A31EAAE05200E51764 /* AdditionQuestion2.m in Sources */,
-				441301A51EAAE05200E51764 /* ScoreKeeper2.m in Sources */,
 				442D4E4F1EADC444002B4D10 /* Cook.m in Sources */,
 				442D4E2C1EAD519A002B4D10 /* Doctor.m in Sources */,
 				442D4E401EAD7D07002B4D10 /* Pizza.m in Sources */,
