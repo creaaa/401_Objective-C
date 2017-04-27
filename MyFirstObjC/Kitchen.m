@@ -81,14 +81,27 @@
 
 - (Pizza*) makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings {
     
+    
     // set false if there is no delegate
     Boolean shouldMakePizza = [self.delegate kitchen:self shouldMakePizzaOfSize: Small andToppings: toppings];
     Boolean shouldMakeSizeLarge = [self.delegate kitchenShouldUpgradeOrder:self];
     
     
+    if (!shouldMakePizza) {
+        return <#expression#>
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     if (shouldMakePizza) {
         
         if (shouldMakeSizeLarge) {
+            
             Pizza* pizza = [[Pizza alloc] initWithSize: Large withTopping: toppings];
             
             // 注意: (kitchenDidMakePizza:pizza:)ではない！！第1引数は無視されるので書いちゃダメ！
@@ -96,7 +109,6 @@
             if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
                 [self.delegate kitchenDidMakePizza:pizza];
             }
-            
             
             return pizza;
         }
