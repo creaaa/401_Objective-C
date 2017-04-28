@@ -81,50 +81,32 @@
 
 - (Pizza*) makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings {
     
-    
     // set false if there is no delegate
     Boolean shouldMakePizza = [self.delegate kitchen:self shouldMakePizzaOfSize: Small andToppings: toppings];
     Boolean shouldMakeSizeLarge = [self.delegate kitchenShouldUpgradeOrder:self];
     
-    
+
     if (!shouldMakePizza) {
-        return <#expression#>
+        printf("failed to make pizza. Returns nothing...\n");
+        return NULL;
     }
     
     
+    Pizza* pizza;
     
-    
-    
-    
-    
-    
-    if (shouldMakePizza) {
-        
-        if (shouldMakeSizeLarge) {
-            
-            Pizza* pizza = [[Pizza alloc] initWithSize: Large withTopping: toppings];
-            
-            // 注意: (kitchenDidMakePizza:pizza:)ではない！！第1引数は無視されるので書いちゃダメ！
-            // 条件がおかしくなるぞ！！
-            if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
-                [self.delegate kitchenDidMakePizza:pizza];
-            }
-            
-            return pizza;
-        }
-        
-        Pizza* pizza = [[Pizza alloc] initWithSize: size withTopping: toppings];
-        
-        if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
-            [self.delegate kitchenDidMakePizza:pizza];
-        }
-        
-        return pizza;
+    if (shouldMakeSizeLarge) {
+        pizza = [[Pizza alloc] initWithSize: Large withTopping: toppings];
+    } else {
+        pizza = [[Pizza alloc] initWithSize: size  withTopping: toppings];
     }
     
-    printf("failed to make pizza. Returns nothing...\n");
-    
-    return NULL;
+    // 注意: (kitchenDidMakePizza:pizza:)ではない！！第1引数は無視されるので書いちゃダメ！
+    // 条件がおかしくなるぞ！！
+    if ([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
+        [self.delegate kitchenDidMakePizza:pizza];
+    }
+
+    return pizza;
     
 }
 
