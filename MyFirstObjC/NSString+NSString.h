@@ -3,7 +3,7 @@
 
 @interface NSString (NSString)
 
-- (Boolean)    judgeConsonant: (NSInteger) idx;
+- (Boolean) judgeVowel: (NSInteger) idx;
 - (NSString *) stringByPigLatinization;
 
 @end

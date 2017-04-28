@@ -7,3 +7,4 @@
 // NSString* hogeTypeText = GetPizzaSizeText(size);
 
 //@end
+

@@ -10,14 +10,16 @@
         // delegator(委譲する)
         Kitchen* kitchen = [Kitchen new];
 
+        
         // delegate(委譲される)  for Assignment 11
         //        AnchoviesHateKitchen* ah_kitchen = [[AnchoviesHateKitchen alloc] init];
         //        VeryGenerousKitchen*  vg_kitchen = [VeryGenerousKitchen new];
 
+        
         // delegate(委譲される)  for Assignment 12
         DeliveryCar*          car         = [DeliveryCar new];
-        AnchoviesHateKitchen* ah_kitchen  = [[AnchoviesHateKitchen alloc] initWithDeliveryCar:car];
-        VeryGenerousKitchen*  vg_kitchen  = [[VeryGenerousKitchen  alloc] initWithDeliveryCar:car];
+        AnchoviesHateKitchen* ah_kitchen  = [[AnchoviesHateKitchen alloc] initWithDeliveryCar: car];
+        VeryGenerousKitchen*  vg_kitchen  = [[VeryGenerousKitchen  alloc] initWithDeliveryCar: car];
 
 
         // 生成されたピザ

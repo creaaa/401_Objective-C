@@ -44,6 +44,7 @@
 }
 
 - (void) holdDie: (int) idx {
+    
     _heldDiceIndices[idx-1] = @1;
     
     [self printDiceState];
