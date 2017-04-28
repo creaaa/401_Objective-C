@@ -19,9 +19,15 @@
             [resultAry addObject: tmp];
         }
 
-        for (int i=0; i < resultAry.count; i++) {
-            printf("%s\n", [resultAry[i] UTF8String]);
+
+        NSMutableString* result = [NSMutableString string];
+
+        for (int i=0; i<resultAry.count; i++) {
+            [result appendString: resultAry[i]];
+            [result appendString: @" "];
         }
+        
+        printf("%s\n", [result UTF8String]);
         
     }
     

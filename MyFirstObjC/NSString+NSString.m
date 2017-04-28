@@ -42,12 +42,15 @@
     
     if (firstHalf == NULL) {
         NSString* s = [self substringWithRange:NSMakeRange(0, self.length)];
-        return [NSString stringWithFormat:@"%@ay", s];
+        
+        // return [NSString stringWithFormat:@"%@ay", s];
+        return [[NSString stringWithFormat:@"%@ay", s] capitalizedString];
+        
     }
     
     NSString* lastHalf = [self substringFromIndex: range-1];
 
-    return [NSString stringWithFormat:@"%@%@ay", lastHalf, firstHalf];
+    return [[NSString stringWithFormat:@"%@%@ay", lastHalf, firstHalf] capitalizedString];
 
 }
 
