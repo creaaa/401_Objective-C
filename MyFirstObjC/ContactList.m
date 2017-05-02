@@ -60,14 +60,15 @@
 
 
 - (void) addPhonesInfo: (int) id {
-    
+
     if(id >= _contactAry.count) {
         printf("Unexist id. Try again...\n");
         return;
     }
     
+    
     InputCollector* prompter = [InputCollector new];
-    Contact* contact = _contactAry[id];
+    Contact* contact         = _contactAry[id];
     
     
     while (true) {

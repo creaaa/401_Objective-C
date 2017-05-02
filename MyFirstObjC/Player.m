@@ -51,7 +51,11 @@
                  
                  printf("Moved from %d to %d\n", pastSquare, _currentSquare);
                  
+                 
+                 [NSDictionary dictionary];
+                 
                  break;
+                 
              }
          }
     // }

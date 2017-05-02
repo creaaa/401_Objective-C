@@ -74,6 +74,11 @@
 
             } else if ([inputInfo[0] isEqualToString:@"phone"]) {
 
+                if (inputInfo.count < 2) {
+                    printf("Unexist input. Try again...\n");
+                    continue;
+                }
+                
                 [contactList addPhonesInfo: [inputInfo[1] intValue]];
 
             } else if ([inputInfo[0] isEqualToString:@"history"]) {
